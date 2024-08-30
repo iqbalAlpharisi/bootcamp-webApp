@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<?= $this->extend('layout\template'); ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <h1>MAIN PAGE</h1>
-</body>
-
-</html>
+<?= $this->section('konten'); ?>
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <h1>HIIII</h1>
+        </div>
+    </div>
+</div>
+<?= $this->endSection(); ?>
