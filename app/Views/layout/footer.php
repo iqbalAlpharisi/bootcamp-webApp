@@ -1,65 +1,46 @@
-<div class="container-fluid" style="background-color: rgb(10, 226, 176);">
-    <footer class="py-5">
-        <div class="row">
-            <div class="col-6 col-md-2 mb-3">
-                <h5>Section</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-                </ul>
-            </div>
+<div style="background-color: rgb(10, 226, 176);">
+    <footer class="py-3">
 
-            <div class="col-6 col-md-2 mb-3">
-                <h5>Section</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-                </ul>
-            </div>
+        <div class="footer1 container-fluid mt-0 pb-3 d-flex justify-content-end align-items-start border-bottom border-1 border-light gx-4">
+            <img src="\img\static\footer\image 1.png" alt="">
+            <img src="\img\static\footer\image 2.png" alt="" style="width: 5em;">
+            <img src="\img\static\footer\image 3.png" alt="">
+            <img src="\img\static\footer\image 4.png" alt="">
+        </div>
 
-            <div class="col-6 col-md-2 mb-3">
-                <h5>Section</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-                </ul>
-            </div>
-
-            <div class="col-md-5 offset-md-1 mb-3">
-                <form>
-                    <h5>Subscribe to our newsletter</h5>
-                    <p>Monthly digest of what's new and exciting from us.</p>
-                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                        <label for="newsletter1" class="visually-hidden">Email address</label>
-                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                        <button class="btn btn-primary" type="button">Subscribe</button>
+        <div class="container-fluid">
+            <div class="row d-flex py-3">
+                <div class="col-3 ">
+                    <img class="" src="\img\static\logodots.png" width="200px" height="80px" alt="">
+                    <div class="container">
+                        <div>Kontak Kami</div>
+                        <div>+6285-7919-24555</div>
+                        <div>official@dotsnusa.com</div>
                     </div>
-                </form>
+                </div>
+
+                <div class="col-2">
+                    <div class="fw-bold">Company</div>
+                    <ul class="fw-light p-0 m-0" style="list-style-type: none;">
+                        <li>Tentang Kami</li>
+                        <li>Tim Kami</li>
+                        <li>Karir</li>
+                        <li>Investor</li>
+                        <li>Kantor</li>
+                    </ul>
+                </div>
+
+                <div class="col-6">
+                    <div class="fw-bold">Quick Links</div>
+                    <ul class="fw-light p-0 m-0" style="list-style-type: none;">
+                        <li>FAQS</li>
+                        <li>Support</li>
+                        <li>Sitemap</li>
+                        <li>Community</li>
+                    </ul>
+                </div>
             </div>
         </div>
-
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>© 2024 Company, Inc. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
-                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                            <use xlink:href="#twitter"></use>
-                        </svg></a></li>
-                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                            <use xlink:href="#instagram"></use>
-                        </svg></a></li>
-                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                            <use xlink:href="#facebook"></use>
-                        </svg></a></li>
-            </ul>
-        </div>
+        <div class="text-light fw-light d-flex justify-content-end">Copyright ©2024 All rights reserved</div>
     </footer>
 </div>

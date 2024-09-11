@@ -1,29 +1,25 @@
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(10, 226, 176);">
-    <div class="container">
-        <a class="navbar-brand" href="#">Bootcamp</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+<nav class="navbar navbar-expand-lg navbar-light d-flex" style="background-color: rgb(10, 226, 176);">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img id="sideIcon" src="\img\static\3.svg" alt="">
+        </a>
+
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Abous us</a>
+                    <a class="nav-link" href="#">Kontak</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#">Modul</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Log In</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown link
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <button type="button" class="btn btnDaftar">Daftar Sekarang !</button>
                 </li>
             </ul>
         </div>

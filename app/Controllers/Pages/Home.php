@@ -11,7 +11,7 @@ class Home extends BaseController
         $data = [
             'tittle' => 'Selamat Datang - Bootcamp Web Aplikasi'
         ];
-        return view('landingPage\main', $data);
+        return view('landingPage\home', $data);
     }
     public function main(): string
     {
@@ -19,5 +19,12 @@ class Home extends BaseController
             'tittle' => 'tittle main'
         ];
         return view('main\main', $data);
+    }
+    public function loginPage(): string
+    {
+        $data = [
+            'tittle' => 'Login'
+        ];
+        return view('landingPage\loginPage', $data);
     }
 }
