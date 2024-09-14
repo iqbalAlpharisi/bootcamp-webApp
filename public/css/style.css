@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+    
+}
+a {
+  all: unset;
 }
 #highlightText {
     color:  rgb(10, 226, 176) !important;
@@ -241,4 +245,56 @@
 
 .container1.active .toggle-right{
     transform: translateX(200%);
+}
+
+/* main */
+.sorting button{
+    display: inline-block;
+    text-align: left !important;
+    padding: 0.3em 0em;
+    padding-inline: 0.5em;
+    width: fit-content;
+}
+#resetbtn{
+    border: 0;
+    background-color: transparent;
+}
+.searchbar{
+    padding: 0.3em 0em;
+    padding-inline: 0.5em;
+    border: solid;
+}
+.card img{
+    max-width: 40%;
+    height: auto;
+}
+#sidebar{
+    position: sticky;
+  max-height: 100vh;
+}
+.sidemenu{
+    cursor: pointer;
+}
+.modul .card{
+    font-size: 0.8em;
+    transition: all 0.2s;
+    border: 2px solid transparent;
+}
+.modul .card:hover{
+    border: 2px solid transparent;
+    border-color: rgb(10, 226, 176);
+    cursor: pointer;
+}
+
+/* modul */
+#modul *{
+    font-size: 0.8em;
+}
+#mask{
+    width: 100px; 
+    height: 100px;
+    background-image: url("../img/static/bannerImg.png");
+}
+#headmodul{
+    margin-left: 60px;
 }

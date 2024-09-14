@@ -13,6 +13,13 @@ class Home extends BaseController
         ];
         return view('landingPage\home', $data);
     }
+    public function loginPage(): string
+    {
+        $data = [
+            'tittle' => 'Login'
+        ];
+        return view('landingPage\loginPage', $data);
+    }
     public function main(): string
     {
         $data = [
@@ -20,11 +27,11 @@ class Home extends BaseController
         ];
         return view('main\main', $data);
     }
-    public function loginPage(): string
+    public function course(): string
     {
         $data = [
-            'tittle' => 'Login'
+            'tittle' => 'Contoh Modul'
         ];
-        return view('landingPage\loginPage', $data);
+        return view('main\course1', $data);
     }
 }

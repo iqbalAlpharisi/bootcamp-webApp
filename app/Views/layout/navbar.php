@@ -1,13 +1,17 @@
-<nav class="navbar navbar-expand-lg navbar-light d-flex" style="background-color: rgb(10, 226, 176);">
+<nav class="navbar navbar-expand-md navbar-light d-flex" style="background-color: rgb(10, 226, 176);">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img id="sideIcon" src="\img\static\3.svg" alt="">
+            <i class="bi bi-terminal-plus"></i>
         </a>
 
-        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLink">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse flex-row-reverse" id="navLink">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kontak</a>

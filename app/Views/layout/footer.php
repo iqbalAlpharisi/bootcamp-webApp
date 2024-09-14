@@ -1,5 +1,5 @@
-<div style="background-color: rgb(10, 226, 176);">
-    <footer class="py-3">
+<footer style="background-color: rgb(10, 226, 176);">
+    <div class="py-3">
 
         <div class="footer1 container-fluid mt-0 pb-3 d-flex justify-content-end align-items-start border-bottom border-1 border-light gx-4">
             <img src="\img\static\footer\image 1.png" alt="">
@@ -42,5 +42,5 @@
             </div>
         </div>
         <div class="text-light fw-light d-flex justify-content-end">Copyright ©2024 All rights reserved</div>
-    </footer>
-</div>
+    </div>
+</footer>
