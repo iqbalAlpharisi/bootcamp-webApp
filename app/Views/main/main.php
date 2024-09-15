@@ -66,7 +66,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="/">
+                        <a href="/course1">
                             <div class="card h-100">
                                 <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
                                 <div class="card-body">
@@ -77,7 +77,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="/">
+                        <a href="/course1course1">
                             <div class="card h-100">
                                 <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
                                 <div class="card-body">
@@ -88,7 +88,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="/">
+                        <a href="/course1">
                             <div class="card h-100">
                                 <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
                                 <div class="card-body">
@@ -99,7 +99,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="/">
+                        <a href="/course1">
                             <div class="card h-100">
                                 <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
                                 <div class="card-body">
@@ -110,7 +110,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="/">
+                        <a href="/course1">
                             <div class="card h-100">
                                 <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
                                 <div class="card-body">
@@ -121,7 +121,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="/">
+                        <a href="/course1">
                             <div class="card h-100">
                                 <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
                                 <div class="card-body">
@@ -132,7 +132,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="/">
+                        <a href="/course1">
                             <div class="card h-100">
                                 <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
                                 <div class="card-body">

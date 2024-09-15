@@ -287,9 +287,6 @@ a {
 }
 
 /* modul */
-#modul *{
-    font-size: 0.8em;
-}
 #mask{
     width: 100px; 
     height: 100px;
@@ -297,4 +294,23 @@ a {
 }
 #headmodul{
     margin-left: 60px;
+}
+.penugasan{
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+}
+.isi section{
+    margin-top: 2em;
+}
+.isi h5 {
+    font-size: 1.2em;
+}
+.isi section{
+    font-size: 0.9em;
+}
+.isi section ul,ol{
+    padding-left: 2em;
+    line-height: 2em;
 }
