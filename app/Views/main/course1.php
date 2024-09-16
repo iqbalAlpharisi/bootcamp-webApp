@@ -93,13 +93,29 @@
                         <li>Bagaimana cara melihat riwayat commit Anda sebelumnya?</li>
                     </ul>
                 </section>
+
+                <section class="my-5 d-flex justify-content-around">
+                    <button type="button" class="btn btn-outline-dark px-3">Lihat Modul</button>
+                    <button type="button" class="btn btn-dark py-2 px-5" style="background-color: rgb(10, 226, 176);">Track Progress</button>
+                    <button type="button" class="btn btn-outline-dark px-3">Selanjutnya</button>
+                </section>
             </div>
         </div>
 
-        <div class="col-2 me-auto bg-success">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, dolorem. Totam dolor soluta corporis labore cumque ratione, recusandae ipsa dolore alias omnis, nisi quas sequi at, molestias exercitationem quibusdam numquam!
+        <div class="col-2 me-auto top-0" id="sidebar">
+            <div class="container-fluid mt-4">
+                <div>
+                    Konten Pelajaran
+                </div>
+                <ul class="border-end list-unstyled w-100 pe-1" id="course-side-bar">
+                    <li>Pendahuluan</li>
+                    <li>Ringkasan Pelajaran</li>
+                    <li>Tugas</li>
+                    <li>Knowledge Check</li>
+                    <li>Sumber daya tambahan</li>
+                </ul>
+            </div>
         </div>
-
     </div>
 
 
