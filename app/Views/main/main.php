@@ -8,23 +8,32 @@
             <div class="container p-2 fs-5 d-flex flex-column sidemenu">
                 <div class="container py-2 my-2">
                     <a href="/main" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-archive ps-3"></i>
+                        <i class="bi bi-house ps-3"></i>
                         <span>Home</span></a>
                 </div>
                 <div class="container py-2 my-2">
                     <a href="/main" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-archive ps-3"></i>
+                        <i class="bi bi-mortarboard ps-3"></i>
                         <span>Modul</span></a>
                 </div>
                 <div class="container py-2 my-2">
                     <a href="/main" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-archive ps-3"></i>
-                        <span>Home</span></a>
+                        <i class="bi bi-cart ps-3"></i>
+                        <span>Keranjang</span></a>
+                </div>
+                <div class="container py-2 my-2">
+                    <a href="/main" class="d-flex align-items-center text-decoration-none">
+                        <i class="bi bi-map ps-3"></i>
+                        <span>Road Map</span></a>
                 </div>
 
-
-
-                <div class="container align-self-stretch">Log Out</div>
+                <div class="flex-grow-1"></div>
+                <div class="container py-2 my-2 mt-auto">
+                    <a href="/logout" class="d-flex align-items-center text-decoration-none">
+                        <i class="bi bi-box-arrow-right ps-3"></i>
+                        <span>Log Out</span>
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -34,17 +43,17 @@
             <section class="container-fluid  pb-4">
                 <div class="sorting row d-flex">
                     <div class="col-2">
-                        <div>Sort By</div>
-                        <button class="">Recently access <i class="bi bi-chevron-down"></i></button>
+                        <div>Urutkan berdasarkan</div>
+                        <button class="w-100">Baru - baru ini <i class="bi bi-chevron-down"></i></button>
                     </div>
                     <div class="col-6">
-                        <div>filter By</div>
-                        <button class="ms-3" type="button">Categories <i class="bi bi-chevron-down"></i></button>
+                        <div>Filter berdasarkan</div>
+                        <button class="ms-3" type="button">Kategori <i class="bi bi-chevron-down"></i></button>
                         <button type="button">Progress <i class="bi bi-chevron-down"></i></button>
                         <button id="resetbtn">Reset</button>
                     </div>
                     <form class="col-4 d-flex align-items-end justify-content-end">
-                        <input class="searchbar" type="text" placeholder="Search My content">
+                        <input class="searchbar" type="text" placeholder="Cari modul">
                         <button class="searchbar bg-dark" type="button"><i class="bi bi-search text-light"></i></button>
                     </form>
                 </div>

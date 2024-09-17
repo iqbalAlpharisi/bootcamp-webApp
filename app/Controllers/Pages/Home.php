@@ -23,14 +23,16 @@ class Home extends BaseController
     public function main(): string
     {
         $data = [
-            'tittle' => 'tittle main'
+            'tittle' => 'tittle main',
+            'navbar' => 'navbar2'
         ];
         return view('main\main', $data);
     }
     public function course(): string
     {
         $data = [
-            'tittle' => 'Contoh Modul'
+            'tittle' => 'Contoh Modul',
+            'navbar' => 'navbar2'
         ];
         return view('main\course1', $data);
     }

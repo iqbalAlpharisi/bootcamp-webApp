@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-light d-flex" style="background-color: rgb(10, 226, 176);">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <i class="bi bi-terminal-plus"></i>
+            <img src="\img\static\green-minimal-computer-desktop-screen-digital-device-with-design-space.png" width="50px" height="auto" alt="">
         </a>
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navLink">

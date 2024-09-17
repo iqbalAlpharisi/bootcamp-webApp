@@ -20,12 +20,12 @@
         <div class="col-10 px-5 ">
             <div class="isi container">
                 <section>
-                    <h5>Pendahuluan</h5>
+                    <h5 id="pendahuluan">Pendahuluan</h5>
                     <div>Dalam pelajaran ini, kita akan membahas perintah-perintah Git umum yang digunakan untuk mengelola proyek Anda dan mengunggah pekerjaan Anda ke GitHub. Kami menyebut perintah-perintah ini sebagai alur kerja Git dasar. Saat Anda menggunakan Git, perintah-perintah ini akan Anda gunakan 70-80% dari waktu Anda. Jika Anda dapat menguasainya, Anda akan lebih dari setengah menguasai Git!</div>
                 </section>
 
                 <section>
-                    <h5>Ringkasan Pelajaran</h5>
+                    <h5 id="ringkasan">Ringkasan Pelajaran</h5>
                     <div>Bagian ini berisi ringkasan umum topik yang akan Anda pelajari dalam pelajaran ini.</div>
                     <div>
                         <ul>
@@ -37,7 +37,7 @@
                 </section>
 
                 <section>
-                    <h5>Tugas</h5>
+                    <h5 id="tigas">Tugas</h5>
                     <div class="container penugasan">
                         <div class="fw-bolder">Sebelum Mulai</div>
                         <div>
@@ -77,7 +77,7 @@
                 </section>
 
                 <section>
-                    <h5>Knowledge check</h5>
+                    <h5 id="check">Knowledge check</h5>
                     <div>Pertanyaan-pertanyaan berikut adalah kesempatan untuk merenungkan topik-topik utama dalam pelajaran ini. Jika Anda tidak dapat menjawab pertanyaan, klik pertanyaan tersebut untuk meninjau materi, tetapi perlu diingat bahwa Anda tidak diharapkan untuk menghafal atau menguasai pengetahuan ini.</div>
                     <ul>
                         <li>Bagaimana cara membuat repositori baru di GitHub?</li>
@@ -95,9 +95,9 @@
                 </section>
 
                 <section class="my-5 d-flex justify-content-around">
-                    <button type="button" class="btn btn-outline-dark px-3">Lihat Modul</button>
+                    <button type="button" class="btn btn-outline-dark px-3"><i class="bi bi-book-half"></i> Lihat Modul</button>
                     <button type="button" class="btn btn-dark py-2 px-5" style="background-color: rgb(10, 226, 176);">Track Progress</button>
-                    <button type="button" class="btn btn-outline-dark px-3">Selanjutnya</button>
+                    <button type="button" class="btn btn-outline-dark px-3"><i class="bi bi-arrow-right-short"></i> Selanjutnya</button>
                 </section>
             </div>
         </div>
@@ -108,10 +108,18 @@
                     Konten Pelajaran
                 </div>
                 <ul class="border-end list-unstyled w-100 pe-1" id="course-side-bar">
-                    <li>Pendahuluan</li>
-                    <li>Ringkasan Pelajaran</li>
-                    <li>Tugas</li>
-                    <li>Knowledge Check</li>
+                    <a href="#pendahuluan" class="pe-auto">
+                        <li>Pendahuluan</li>
+                    </a>
+                    <a href="#ringkasan">
+                        <li>Ringkasan Pelajaran</li>
+                    </a>
+                    <a href="#tugas">
+                        <li>Tugas</li>
+                    </a>
+                    <a href="#check">
+                        <li>Knowledge Check</li>
+                    </a>
                     <li>Sumber daya tambahan</li>
                 </ul>
             </div>

@@ -8,6 +8,7 @@
 }
 a {
   all: unset;
+  cursor: pointer;
 }
 #highlightText {
     color:  rgb(10, 226, 176) !important;
@@ -246,7 +247,34 @@ a {
 .container1.active .toggle-right{
     transform: translateX(200%);
 }
+/* navbar2 */
+.profile-pic{
+    display: inline-block;
+    vertical-align: middle;
+     width: 30px;
+     height: 30px;
+     overflow: hidden;
+    border-radius: 50%;
+ }
+ .profile-pic img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+ }
+ .profile-menu .dropdown-menu {
+    right: 0;
+    left: unset;
+  }
+  .profile-menu .bell-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
 
+.profile-menu .bi-bell {
+    font-size: 1.5rem; /* Adjust the size as needed */
+}
 /* main */
 .sorting button{
     display: inline-block;
@@ -270,7 +298,10 @@ a {
 }
 #sidebar{
     position: sticky;
-  max-height: 100vh;
+    max-height: 100vh;
+}
+.flex-grow-1{
+    margin-top: 450px;
 }
 .sidemenu{
     cursor: pointer;

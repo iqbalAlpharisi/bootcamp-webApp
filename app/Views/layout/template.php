@@ -13,7 +13,12 @@
 </head>
 
 <body>
-    <?= $this->include('layout\navbar'); ?>
+    <?php if (isset($navbar) && $navbar == 'navbar2'): ?>
+        <?= $this->include('layout/navbar2'); ?>
+    <?php else: ?>
+        <?= $this->include('layout/navbar1'); ?>
+    <?php endif; ?>
+
 
     <?= $this->renderSection('konten'); ?>
 
