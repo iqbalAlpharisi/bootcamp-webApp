@@ -7,7 +7,7 @@
             <h3 class="fs-2 fw-bold">Karier Anda Dalam <span id="highlightText">Pemrograman Web</span> <br>Dimulai di sini</h3>
             <h3 class="fs-5 fw-lighter mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Saepe modi at officiis eos facilis quidem iste eligendi! </h3>
             <a class="text-reset" href="/main">
-                <button type="button" class="btn bg-transparent btn-lg text-reset mt-4 startBtn">Full Kurikulum</button>
+                <button type="button" class="btn1">Full Kurikulum</button>
             </a>
         </div>
     </div>
@@ -133,7 +133,7 @@
 
         </div>
         <a class="text-reset" href="/main">
-            <button type="button" class="btn btn-lg text-reset mt-5 startBtn">Lihat Modul Lainnya</button>
+            <button type="button" class="btn1 my-3">Lihat Modul Lainnya</button>
         </a>
     </div>
 </div>

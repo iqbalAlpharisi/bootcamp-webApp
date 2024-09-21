@@ -10,26 +10,52 @@ a {
   all: unset;
   cursor: pointer;
 }
-#highlightText {
-    color:  rgb(10, 226, 176) !important;
+/* navbar1 */
+#navLink .nav-link:hover{
+    color: white;
+}
+.btnDaftar{
+    color: white;
+    background-color: #A3A66A;
+    padding-inline: 1em;
+    padding-block: 0.4em;
+    border: solid;
+    border-color: #A3A66A;
+    border-radius: 5px;
+}
+.btnDaftar:hover{
 
 }
-.startBtn{
-    border: solid;
-    padding-inline: 3em;
-    margin-bottom: 3rem;
-    background-color: white;
+/* landing Page */
+#highlightText {
+    color:  rgb(33, 198, 159) !important;
+
 }
+.btn1{
+    padding-inline: 2em;
+    padding-block: 0.5em;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(33, 198, 159);
+    background-color: transparent;
+    color: rgb(33, 198, 159);
+    margin-block: 1em;
+    transition-duration: 0.3s;
+}
+.btn1:hover{
+    background-color: rgb(33, 198, 159);
+    color: white;
+    border-color: white;
+
+}
+
 .illus{
     width: 8em;
 }
 #bannerImg{
     width: 100%;
     display: block;
-}
-.btnDaftar{
-    color: white;
-    background-color: #A3A66A;
 }
 #sideIcon{
     width: 1em;
@@ -87,7 +113,7 @@ a {
 }
 
 .container1 button{
-    background-color: rgb(10, 226, 176);
+    background-color: rgb(33, 198, 159);
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -200,9 +226,9 @@ a {
 }
 
 .toggle{
-    background-color: rgb(10, 226, 176);
+    background-color: rgb(33, 198, 159);
     height: 100%;
-    background: linear-gradient(to right, rgb(181, 228, 217), rgb(10, 226, 176));
+    background: linear-gradient(to right, rgb(181, 228, 217), rgb(33, 198, 159));
     color: #fff;
     position: relative;
     left: -100%;
@@ -313,7 +339,7 @@ a {
 }
 .modul .card:hover{
     border: 2px solid transparent;
-    border-color: rgb(10, 226, 176);
+    border-color: rgb(33, 198, 159);
     cursor: pointer;
 }
 

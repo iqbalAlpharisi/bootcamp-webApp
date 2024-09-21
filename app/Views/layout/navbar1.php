@@ -23,7 +23,7 @@
                     <a class="nav-link" href="/login">Log In</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <button type="button" class="btn btnDaftar">Daftar Sekarang !</button>
+                    <button type="button" class="btnDaftar">Daftar Sekarang !</button>
                 </li>
             </ul>
         </div>
