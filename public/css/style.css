@@ -301,13 +301,27 @@ a {
 .profile-menu .bi-bell {
     font-size: 1.5rem; /* Adjust the size as needed */
 }
-/* main */
+/* myCourse */
 .sorting button{
     display: inline-block;
-    text-align: left !important;
     padding: 0.3em 0em;
     padding-inline: 0.5em;
     width: fit-content;
+}
+.dropdown-menu{
+    min-width: 250px
+}
+#filters .dropdown-menu li{
+    text-align: start;
+    padding-left: 1em;
+    padding-block: 0.4em;
+    margin-bottom: 0.4em;
+    white-space: nowrap;
+    transition: 0.1s;
+}
+#filters .dropdown-menu li:hover{
+    background-color: rgb(33, 198, 159);
+    color: white;
 }
 #resetbtn{
     border: 0;
@@ -347,7 +361,9 @@ a {
 #mask{
     width: 100px; 
     height: 100px;
-    background-image: url("../img/static/bannerImg.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 #headmodul{
     margin-left: 60px;
@@ -364,8 +380,9 @@ a {
 .isi h5 {
     font-size: 1.2em;
 }
-.isi section{
+.isi{
     font-size: 0.9em;
+    letter-spacing: 0.4px;
 }
 .isi section ul,ol{
     padding-left: 2em;
@@ -376,4 +393,26 @@ a {
     font-size: 0.8em;
     font-weight: lighter;
     line-height: 2em;
+}
+.isi img{
+    max-width: 600px;
+}
+.note{
+    border-style: solid;
+    border-color: rgb(33, 198, 159);
+    border-radius: 5px;
+    border-width: 0px 0px 0px 5px;
+    background-color: #f0f0f0;
+}
+.isi #nextPage{
+    color: rgb(33, 198, 159);
+    text-decoration: none;
+}
+.isi a{
+    color: #0000EE;
+    text-decoration: underline;
+}
+.isi a:hover{
+    color: rgb(33, 198, 159);
+    text-decoration: none;
 }

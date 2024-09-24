@@ -4,13 +4,12 @@
 <div class="container w-75" id="modulKonten">
     <div class="row">
         <div class="col mt-5 p-0 container-fluid d-flex" id="headmodul">
-            <div class="rounded-circle" id="mask"></div>
+            <div class="rounded-circle" style="background-image: url('htdocs/bootCampWebApp/public/static/IconMateri/codeigniter.png');" id="mask"></div>
             <div class="container w-25 mx-0 my-auto">
                 <div class="row">
-                    <h5 class="col-6">Github</h5>
-                    <div class="col-6"></div>
+                    <h5 class="col">Instalasi software </h5>
                     <div class="w-100"></div>
-                    <div class="col fw-light">Github fungsi basis</div>
+                    <div class="col fw-light">XAMPP & Composer</div>
                 </div>
             </div>
         </div>
@@ -20,12 +19,14 @@
         <div class="col-10 px-5 ">
             <div class="isi container">
                 <section>
-                    <h5 id="pendahuluan">Pendahuluan</h5>
-                    <div>Dalam pelajaran ini, kita akan membahas perintah-perintah Git umum yang digunakan untuk mengelola proyek Anda dan mengunggah pekerjaan Anda ke GitHub. Kami menyebut perintah-perintah ini sebagai alur kerja Git dasar. Saat Anda menggunakan Git, perintah-perintah ini akan Anda gunakan 70-80% dari waktu Anda. Jika Anda dapat menguasainya, Anda akan lebih dari setengah menguasai Git!</div>
+                    <h5 id="pendahuluan">Download Xampp</h5>
+                    <div>Download pada alamat berikut : <br>
+                        <a href="https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.4/xampp-windows-x64-8.2.4-0-VS16-installer.exe/download">https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.4/xampp-windows-x64-8.2.4-0-VS16-installer.exe/download</a>
+                    </div>
                 </section>
 
                 <section>
-                    <h5 id="ringkasan">Ringkasan Pelajaran</h5>
+                    <h5 id="ringkasan"></h5>
                     <div>Bagian ini berisi ringkasan umum topik yang akan Anda pelajari dalam pelajaran ini.</div>
                     <div>
                         <ul>
@@ -108,7 +109,7 @@
                     Konten Pelajaran
                 </div>
                 <ul class="border-end list-unstyled w-100 pe-1" id="course-side-bar">
-                    <a href="#pendahuluan" class="pe-auto">
+                    <a href="#pendahuluan" class="pe-auto" id="pendahuluan">
                         <li>Pendahuluan</li>
                     </a>
                     <a href="#ringkasan">

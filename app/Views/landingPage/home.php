@@ -5,9 +5,11 @@
     <div class="row">
         <div class="col text-center">
             <h3 class="fs-2 fw-bold">Karier Anda Dalam <span id="highlightText">Pemrograman Web</span> <br>Dimulai di sini</h3>
-            <h3 class="fs-5 fw-lighter mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Saepe modi at officiis eos facilis quidem iste eligendi! </h3>
-            <a class="text-reset" href="/main">
-                <button type="button" class="btn1">Full Kurikulum</button>
+            <h3 class="fs-5 fw-lighter mt-4 w-50 text-center mx-auto">Di sini, kami menawarkan program pelatihan intensif yang
+                dirancang khusus untuk membantu Anda menguasai keterampilan pengembangan web terkini,
+                mulai dari dasar hingga tingkat lanjut. </h3>
+            <a class="text-reset" href="/myCourse">
+                <button type="button" class="btn1">Mulai Sekarang</button>
             </a>
         </div>
     </div>
@@ -132,7 +134,7 @@
             </div>
 
         </div>
-        <a class="text-reset" href="/main">
+        <a class="text-reset" href="/store">
             <button type="button" class="btn1 my-3">Lihat Modul Lainnya</button>
         </a>
     </div>

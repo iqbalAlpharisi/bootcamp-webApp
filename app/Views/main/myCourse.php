@@ -7,7 +7,7 @@
         <div class="col-2 position-sticky top-0" id="sidebar">
             <div class="container p-2 fs-5 d-flex flex-column sidemenu">
                 <div class="container py-2 my-2">
-                    <a href="/main" class="d-flex align-items-center text-decoration-none">
+                    <a href="/" class="d-flex align-items-center text-decoration-none">
                         <i class="bi bi-house ps-3"></i>
                         <span>Home</span></a>
                 </div>
@@ -23,8 +23,8 @@
                 </div>
                 <div class="container py-2 my-2">
                     <a href="/main" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-map ps-3"></i>
-                        <span>Road Map</span></a>
+                        <i class="bi bi-shop ps-3"></i>
+                        <span>Store</span></a>
                 </div>
 
                 <div class="flex-grow-1"></div>
@@ -40,16 +40,44 @@
         <!-- main -->
         <div class="col-10 p-5" style="background-color:#DCDCDC;">
             <!-- Sorting Section -->
-            <section class="container-fluid  pb-4">
+            <section class="container-fluid pb-4" id="filters">
                 <div class="sorting row d-flex">
                     <div class="col-2">
                         <div>Urutkan berdasarkan</div>
-                        <button class="w-100">Baru - baru ini <i class="bi bi-chevron-down"></i></button>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown button
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="" href="#">Action</a></li>
+                                <li><a class="" href="#">Another action</a></li>
+                                <li><a class="" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+
                     </div>
                     <div class="col-6">
                         <div>Filter berdasarkan</div>
-                        <button class="ms-3" type="button">Kategori <i class="bi bi-chevron-down"></i></button>
-                        <button type="button">Progress <i class="bi bi-chevron-down"></i></button>
+                        <div class="dropdown d-inline-block">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Kategori
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="" href="#">Action</a></li>
+                                <li><a class="" href="#">Another action</a></li>
+                                <li><a class="" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown d-inline-block">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Progress
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="" href="#">Action</a></li>
+                                <li><a class="" href="#">Another action</a></li>
+                                <li><a class="" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
                         <button id="resetbtn">Reset</button>
                     </div>
                     <form class="col-4 d-flex align-items-end justify-content-end">
@@ -173,4 +201,6 @@
         </div>
     </div>
 </div>
+
+
 <?= $this->endSection(); ?>

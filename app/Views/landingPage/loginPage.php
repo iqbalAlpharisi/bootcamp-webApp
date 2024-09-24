@@ -28,7 +28,7 @@
 
         <!-- login sec -->
         <div class="form-container sign-in">
-            <form action="/main">
+            <form action="/myCourse">
                 <h1>Log In In</h1>
                 <span>Gunakan Email dan Password yang telah terdaftar</span>
                 <input type="email" placeholder="Email">

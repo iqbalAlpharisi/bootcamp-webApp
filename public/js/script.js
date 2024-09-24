@@ -10,3 +10,8 @@ loginBtn.addEventListener('click', () => {
     container.classList.remove("active");
 });
 
+const list = document.querySelector('#pendahuluan');
+
+list.addEventListener('click', () => {
+    list.classList.add("listScroll");
+});

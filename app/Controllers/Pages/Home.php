@@ -20,20 +20,44 @@ class Home extends BaseController
         ];
         return view('landingPage\loginPage', $data);
     }
-    public function main(): string
+    public function myCourse(): string
     {
         $data = [
-            'tittle' => 'tittle main',
+            'tittle' => 'My Course',
             'navbar' => 'navbar2'
         ];
-        return view('main\main', $data);
+        return view('main\myCourse', $data);
     }
-    public function course(): string
+    public function store(): string
     {
         $data = [
-            'tittle' => 'Contoh Modul',
+            'tittle' => 'Store',
             'navbar' => 'navbar2'
         ];
-        return view('main\course1', $data);
+        return view('main\store', $data);
+    }
+    public function bab(): string
+    {
+        $data = [
+            'tittle' => 'CodeIngiter 4',
+            'navbar' => 'navbar2'
+        ];
+        return view('main\ci4\bab1', $data);
+    }
+    public function bab2(): string
+    {
+        $data = [
+            'tittle' => 'CodeIngiter 4',
+            'navbar' => 'navbar2'
+        ];
+        return view('main\ci4\bab2', $data);
+    }
+    public function bab3(): string
+    {
+        $data = [
+            'tittle' => 'CodeIngiter 4',
+            'navbar' => 'navbar2'
+        ];
+        return view('main\ci4\bab3', $data);
     }
 }

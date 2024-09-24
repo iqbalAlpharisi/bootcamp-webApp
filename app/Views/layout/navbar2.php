@@ -17,7 +17,7 @@
                             <img src="https://images.unsplash.com/photo-1721006779304-49a9f5beadab?q=80&w=2770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Profile Picture">
                         </div>
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu text-end" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#"><i class="fas fa-sliders-h fa-fw"></i> Account</a></li>
                         <li><a class="dropdown-item" href="#"><i class="fas fa-cog fa-fw"></i> Settings</a></li>
                         <li>

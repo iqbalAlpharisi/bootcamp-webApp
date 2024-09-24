@@ -14,10 +14,7 @@
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Modul</a>
+                    <a class="nav-link" href="/store">Store</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/login">Log In</a>
