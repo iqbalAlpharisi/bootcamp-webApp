@@ -36,28 +36,80 @@ class Home extends BaseController
         ];
         return view('main\store', $data);
     }
-    public function bab(): string
+
+    // Bab 1
+    public function bab1_1(): string
     {
         $data = [
             'tittle' => 'CodeIngiter 4',
             'navbar' => 'navbar2'
         ];
-        return view('main\ci4\bab1', $data);
+        return view('main\ci4\bab1\sub1', $data);
     }
-    public function bab2(): string
+    public function bab1_2(): string
     {
         $data = [
             'tittle' => 'CodeIngiter 4',
             'navbar' => 'navbar2'
         ];
-        return view('main\ci4\bab2', $data);
+        return view('main\ci4\bab1\sub2', $data);
     }
-    public function bab3(): string
+    public function bab1_3(): string
     {
         $data = [
             'tittle' => 'CodeIngiter 4',
             'navbar' => 'navbar2'
         ];
-        return view('main\ci4\bab3', $data);
+        return view('main\ci4\bab1\sub3', $data);
+    }
+    public function bab1_4(): string
+    {
+        $data = [
+            'tittle' => 'CodeIngiter 4',
+            'navbar' => 'navbar2'
+        ];
+        return view('main\ci4\bab1\sub4', $data);
+    }
+    public function bab1_5(): string
+    {
+        $data = [
+            'tittle' => 'CodeIngiter 4',
+            'navbar' => 'navbar2'
+        ];
+        return view('main\ci4\bab1\sub5', $data);
+    }
+    public function bab1_6(): string
+    {
+        $data = [
+            'tittle' => 'CodeIngiter 4',
+            'navbar' => 'navbar2'
+        ];
+        return view('main\ci4\bab1\sub6', $data);
+    }
+    public function bab1_7(): string
+    {
+        $data = [
+            'tittle' => 'CodeIngiter 4',
+            'navbar' => 'navbar2'
+        ];
+        return view('main\ci4\bab1\sub7', $data);
+    }
+    public function bab1_8(): string
+    {
+        $data = [
+            'tittle' => 'CodeIngiter 4',
+            'navbar' => 'navbar2'
+        ];
+        return view('main\ci4\bab1\sub8', $data);
+    }
+
+    // Bab 2
+    public function bab2_1(): string
+    {
+        $data = [
+            'tittle' => 'CodeIngiter 4',
+            'navbar' => 'navbar2'
+        ];
+        return view('main\ci4\bab2\sub1', $data);
     }
 }

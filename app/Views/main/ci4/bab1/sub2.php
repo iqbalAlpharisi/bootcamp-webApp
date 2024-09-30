@@ -4,12 +4,12 @@
 <div class="container w-75" id="modulKonten">
     <div class="row">
         <div class="col mt-5 p-0 container-fluid d-flex" id="headmodul">
-            <div class="rounded-circle" style="background-image: url('../img/static/iconMateri/codeigniter.png');" id="mask"></div>
+            <div class="rounded-circle" style="background-image: url('/img/static/iconMateri/codeigniter.png');" id="mask"></div>
             <div class="container w-25 mx-0 my-auto">
                 <div class="row">
                     <h5 class="col">Instalasi software </h5>
                     <div class="w-100"></div>
-                    <div class="col fw-light">Code Igniter 4</div>
+                    <div class="col fw-light">Composer</div>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@
                     <div>
                         <h5>2. Install Composer</h5>
                         <p>Setelah selesai download file Composer, buka file tersebut dan ikuti instruksi instalasi di bawah ini:
-                            <img class="my-4 d-block" src="../img/static/ci4/bab1/image40.png" alt="">
+                            <img class="my-4 d-block" src="/img/static/ci4/bab1/image40.png" alt="">
                             Pertama akan muncul halaman seperti pada gambar dibawah ini. Klik Next untuk melanjutkan ke proses instalasi.
                         </p>
                     </div>
@@ -62,7 +62,7 @@
                         <h5>3. Tentukan Lokasi File Instalasi</h5>
                         <p>Selanjutnya Anda akan diminta untuk menentukan lokasi file php (php.exe)
                             yang akan digunakan pada command line (PHP CLI- Command Line Interface).
-                            <img class="my-4" src="../img/static/ci4/bab1/image22.png" alt="">
+                            <img class="my-4" src="/img/static/ci4/bab1/image22.png" alt="">
                             File tersebut biasanya berada di dalam folder php. Jika Anda menggunakan XAMPP,
                             lokasi file ini akan berada di C:\xampp\php. Pastikan pilih lokasi instalasi
                             Composer berjalan di C:\xampp\php\php.exe. Klik Next apabila lokasi file php sudah benar.
@@ -73,7 +73,7 @@
                             Kemudian Anda akan diminta untuk memilih, apakah Anda akan menggunakan proxy atau tidak.
                             Jika Anda ingin menggunakan proxy, klik centang dan masukkan URL proxy Anda.
                             Apabila Anda tidak ingin menggunakan proxy, langsung klik Next untuk melanjutkan instalasi.
-                            <img class="my-4" src="../img/static/ci4/bab1/image12.png" alt="">
+                            <img class="my-4" src="/img/static/ci4/bab1/image12.png" alt="">
                         </p>
                     </div>
 
@@ -81,7 +81,7 @@
                         <h5>5. Review Lokasi Instalasi</h5>
                         <p>
                             Selanjutnya pastikan kalau proses instalasi berjalan di lokasi file yang seharusnya, yaitu C:\xampp\php\php.exe. Jika sudah benar, klik Install.
-                            <img class="my-4" src="../img/static/ci4/bab1/image28.png" alt="">
+                            <img class="my-4" src="/img/static/ci4/bab1/image28.png" alt="">
                         </p>
                     </div>
 
@@ -96,7 +96,7 @@
                     <div>
                         <h5>7. Instalasi Selesai</h5>
                         <p>Proses instalasi selesai, klik Finish untuk menutup jendela instalasi Composer.
-                            <img class="my-4" src="../img/static/ci4/bab1/image2.png" alt="">
+                            <img class="my-4" src="/img/static/ci4/bab1/image2.png" alt="">
                         </p>
                     </div>
 
@@ -107,7 +107,7 @@
                         </p>
                         <p>
                             Maka Anda akan diarahkan ke jendela Command Prompt masukkan perintah seperti di bawah ini untuk mengecek instalasi sukses atau tidak.
-                            <img src="../img/static/ci4/bab1/image9.png" alt="">
+                            <img src="/img/static/ci4/bab1/image9.png" alt="">
                         </p>
                         <p>Apabila muncul seperti gambar di atas, instalasi Anda berhasil. </p>
                     </div>
@@ -173,7 +173,7 @@ php -r "unlink('composer-setup.php');"
 <code class="rounded-3">composer --version
 </code>
 </pre>
-                            This should display the Composer version, confirming a successful installation.
+                            Ini akan menampilkan versi Composer, mengonfirmasikan keberhasilan instalasi.
                         </li>
 
 
@@ -183,7 +183,7 @@ php -r "unlink('composer-setup.php');"
                 <section class="my-5 d-flex justify-content-around">
                     <button type="button" class="btn btn-outline-dark px-3"><i class="bi bi-book-half"></i> Lihat Modul</button>
                     <button type="button" class="btn btn-dark py-2 px-5" style="background-color: rgb(10, 226, 176);">Track Progress</button>
-                    <button type="button" class="btn btn-outline-dark px-3"><a href="/ci4/bab3" id="nextPage"><i class="bi bi-arrow-right-short"></i> Selanjutnya</a></button>
+                    <button type="button" class="btn btn-outline-dark px-3"><a href="/ci4/bab1/3" id="nextPage"><i class="bi bi-arrow-right-short"></i> Selanjutnya</a></button>
                 </section>
             </div>
         </div>
@@ -198,15 +198,9 @@ php -r "unlink('composer-setup.php');"
                         <li>Pendahuluan</li>
                     </a>
                     <a href="#ringkasan">
-                        <li>Ringkasan Pelajaran</li>
+                        <li>Cara Instalasi</li>
                     </a>
-                    <a href="#tugas">
-                        <li>Tugas</li>
-                    </a>
-                    <a href="#check">
-                        <li>Knowledge Check</li>
-                    </a>
-                    <li>Sumber daya tambahan</li>
+
                 </ul>
             </div>
         </div>

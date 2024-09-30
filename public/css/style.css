@@ -369,10 +369,12 @@ a {
     margin-left: 60px;
 }
 .penugasan{
-    padding-top: 1.5em;
-    padding-left: 1.5em;
+    padding: 1.5em;
     background-color: #dcdcdc;
-    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(255, 140, 0);
+    border-radius: 5px;
+    border-width: 0px 0px 0px 5px;
 }
 .isi section{
     margin-top: 2em;
@@ -381,7 +383,7 @@ a {
     font-size: 1.2em;
 }
 .isi{
-    font-size: 0.9em;
+    font-size: 0.9rem;
     letter-spacing: 0.4px;
 }
 .isi section ul,ol{
