@@ -18,7 +18,7 @@
     <div class="row ">
         <div class="col-8 pe-5 ">
             <div class="isi container">
-                <section>
+                <section class="sect1">
                     <h5 id="sect1">Struktur Direktori Codeigniter 4</h5>
                     <article>
                         <p>Jika Anda baru pertama kali belajar Codeigniter, maka wajib hukumnya mengetahui apa saja isi direktori dan file yang ada di dalam project codeigniter.
@@ -56,7 +56,7 @@
                     </article>
                 </section>
 
-                <section>
+                <section class="sect2">
                     <h5 id="sect2">Mengenal Konsep MVC Codeigniter 4</h5>
                     <article>
                         <div>
@@ -105,7 +105,7 @@
                     </article>
                 </section>
 
-                <section>
+                <section class="sect6">
                     <h5 id="sect6">Router di Codeigniter 4</h5>
                     <article>
                         <p>Coba buka file app/Config/Routes.php. File ini adalah file router yang bertugas untuk menentukan,
@@ -130,7 +130,7 @@
                     </article>
                 </section>
 
-                <section>
+                <section class="sect7">
                     <h5 id="sect7">Memahami Routing dan Controller</h5>
                     <article>
                         <p>Routing adalah proses menentukan arah atau rute yang harus dilalui.</p>

@@ -18,8 +18,9 @@
     <div class="row ">
         <div class="col-8 pe-5 ">
             <div class="isi container">
-                <section>
-                    <h5 id="pendahuluan">Pendahuluan</h5>
+
+                <section class="sect1">
+                    <h5 id="sect1">Pendahuluan</h5>
                     <div>
                         <p>Composer berfungsi untuk menghubungkan project aplikasi dengan library dari packagist.org.
                             Packagist merupakan situs yang menyimpan banyak library PHP yang bisa digunakan melalui Composer.</p>
@@ -32,9 +33,9 @@
                     </div>
                 </section>
 
-                <section>
-                    <div>
-                        <h5 id="">Cara Install Composer</h5>
+                <section class="sect2">
+                    <h5 id="sect2">Cara Install Composer</h5>
+                    <article>
                         <p>Cara install Composer yang terdiri dari 8 langkah, yaitu :</p>
                         <ol>
                             <li>Download File Composer</li>
@@ -46,72 +47,71 @@
                             <li>Instalasi Selesai</li>
                             <li>Cek Instalasi Composer</li>
                         </ol>
-                    </div>
-                    <div>
-                        <h5>1. Download</h5>
-                        <p>Sebelum melakukan instalasi, hal pertama yang harus dilakukan adalah mengunduh file Composer. <a href="https://getcomposer.org/Composer-Setup.exe">Buka link di sini untuk mengunduh file tersebut.</a></p>
-                    </div>
-                    <div>
-                        <h5>2. Install Composer</h5>
-                        <p>Setelah selesai download file Composer, buka file tersebut dan ikuti instruksi instalasi di bawah ini:
-                            <img class="my-4 d-block" src="/img/static/ci4/bab1/image40.png" alt="">
-                            Pertama akan muncul halaman seperti pada gambar dibawah ini. Klik Next untuk melanjutkan ke proses instalasi.
-                        </p>
-                    </div>
-                    <div>
-                        <h5>3. Tentukan Lokasi File Instalasi</h5>
-                        <p>Selanjutnya Anda akan diminta untuk menentukan lokasi file php (php.exe)
-                            yang akan digunakan pada command line (PHP CLI- Command Line Interface).
-                            <img class="my-4" src="/img/static/ci4/bab1/image22.png" alt="">
-                            File tersebut biasanya berada di dalam folder php. Jika Anda menggunakan XAMPP,
-                            lokasi file ini akan berada di C:\xampp\php. Pastikan pilih lokasi instalasi
-                            Composer berjalan di C:\xampp\php\php.exe. Klik Next apabila lokasi file php sudah benar.
-                    </div>
-                    <div>
-                        <h5>4. Pilih Penggunaan Proxy</h5>
-                        <p>
-                            Kemudian Anda akan diminta untuk memilih, apakah Anda akan menggunakan proxy atau tidak.
-                            Jika Anda ingin menggunakan proxy, klik centang dan masukkan URL proxy Anda.
-                            Apabila Anda tidak ingin menggunakan proxy, langsung klik Next untuk melanjutkan instalasi.
-                            <img class="my-4" src="/img/static/ci4/bab1/image12.png" alt="">
-                        </p>
-                    </div>
+                        <div>
+                            <h5>1. Download</h5>
+                            <p>Sebelum melakukan instalasi, hal pertama yang harus dilakukan adalah mengunduh file Composer. <a href="https://getcomposer.org/Composer-Setup.exe">Buka link di sini untuk mengunduh file tersebut.</a></p>
+                        </div>
+                        <div>
+                            <h5>2. Install Composer</h5>
+                            <p>Setelah selesai download file Composer, buka file tersebut dan ikuti instruksi instalasi di bawah ini:
+                                <img class="my-4 d-block" src="/img/static/ci4/bab1/image40.png" alt="">
+                                Pertama akan muncul halaman seperti pada gambar dibawah ini. Klik Next untuk melanjutkan ke proses instalasi.
+                            </p>
+                        </div>
+                        <div>
+                            <h5>3. Tentukan Lokasi File Instalasi</h5>
+                            <p>Selanjutnya Anda akan diminta untuk menentukan lokasi file php (php.exe)
+                                yang akan digunakan pada command line (PHP CLI- Command Line Interface).
+                                <img class="my-4" src="/img/static/ci4/bab1/image22.png" alt="">
+                                File tersebut biasanya berada di dalam folder php. Jika Anda menggunakan XAMPP,
+                                lokasi file ini akan berada di C:\xampp\php. Pastikan pilih lokasi instalasi
+                                Composer berjalan di C:\xampp\php\php.exe. Klik Next apabila lokasi file php sudah benar.
+                        </div>
+                        <div>
+                            <h5>4. Pilih Penggunaan Proxy</h5>
+                            <p>
+                                Kemudian Anda akan diminta untuk memilih, apakah Anda akan menggunakan proxy atau tidak.
+                                Jika Anda ingin menggunakan proxy, klik centang dan masukkan URL proxy Anda.
+                                Apabila Anda tidak ingin menggunakan proxy, langsung klik Next untuk melanjutkan instalasi.
+                                <img class="my-4" src="/img/static/ci4/bab1/image12.png" alt="">
+                            </p>
+                        </div>
 
-                    <div>
-                        <h5>5. Review Lokasi Instalasi</h5>
-                        <p>
-                            Selanjutnya pastikan kalau proses instalasi berjalan di lokasi file yang seharusnya, yaitu C:\xampp\php\php.exe. Jika sudah benar, klik Install.
-                            <img class="my-4" src="/img/static/ci4/bab1/image28.png" alt="">
-                        </p>
-                    </div>
+                        <div>
+                            <h5>5. Review Lokasi Instalasi</h5>
+                            <p>
+                                Selanjutnya pastikan kalau proses instalasi berjalan di lokasi file yang seharusnya, yaitu C:\xampp\php\php.exe. Jika sudah benar, klik Install.
+                                <img class="my-4" src="/img/static/ci4/bab1/image28.png" alt="">
+                            </p>
+                        </div>
 
-                    <div>
-                        <h5>6. Review Perubahan Instalasi (Opsional)</h5>
-                        <p>Berikutnya adalah tampilan pemberitahuan bahwa telah terjadi perubahan pada Windows environment.
-                            Perubahan ini dimaksudkan agar Composer dapat dijalankan pada Command Prompt.
-                            Jika Anda sudah pernah menggunakan Composer sebelumnya, opsi ini tidak akan muncul.
-                        </p>
-                    </div>
+                        <div>
+                            <h5>6. Review Perubahan Instalasi (Opsional)</h5>
+                            <p>Berikutnya adalah tampilan pemberitahuan bahwa telah terjadi perubahan pada Windows environment.
+                                Perubahan ini dimaksudkan agar Composer dapat dijalankan pada Command Prompt.
+                                Jika Anda sudah pernah menggunakan Composer sebelumnya, opsi ini tidak akan muncul.
+                            </p>
+                        </div>
 
-                    <div>
-                        <h5>7. Instalasi Selesai</h5>
-                        <p>Proses instalasi selesai, klik Finish untuk menutup jendela instalasi Composer.
-                            <img class="my-4" src="/img/static/ci4/bab1/image2.png" alt="">
-                        </p>
-                    </div>
+                        <div>
+                            <h5>7. Instalasi Selesai</h5>
+                            <p>Proses instalasi selesai, klik Finish untuk menutup jendela instalasi Composer.
+                                <img class="my-4" src="/img/static/ci4/bab1/image2.png" alt="">
+                            </p>
+                        </div>
 
-                    <div>
-                        <h5>8. Cek Instalasi Composer</h5>
-                        <p>Setelah proses instalasi Composer selesai, langkah selanjutnya adalah cek instalasi Composer menggunakan Command Prompt.
-                            Caranya adalah Tekan Win+R lalu ketik cmd dan klik Ok.
-                        </p>
-                        <p>
-                            Maka Anda akan diarahkan ke jendela Command Prompt masukkan perintah seperti di bawah ini untuk mengecek instalasi sukses atau tidak.
-                            <img src="/img/static/ci4/bab1/image9.png" alt="">
-                        </p>
-                        <p>Apabila muncul seperti gambar di atas, instalasi Anda berhasil. </p>
-                    </div>
-
+                        <div>
+                            <h5>8. Cek Instalasi Composer</h5>
+                            <p>Setelah proses instalasi Composer selesai, langkah selanjutnya adalah cek instalasi Composer menggunakan Command Prompt.
+                                Caranya adalah Tekan Win+R lalu ketik cmd dan klik Ok.
+                            </p>
+                            <p>
+                                Maka Anda akan diarahkan ke jendela Command Prompt masukkan perintah seperti di bawah ini untuk mengecek instalasi sukses atau tidak.
+                                <img src="/img/static/ci4/bab1/image9.png" alt="">
+                            </p>
+                            <p>Apabila muncul seperti gambar di atas, instalasi Anda berhasil. </p>
+                        </div>
+                    </article>
                 </section>
 
                 <div class="note py-3 my-5 container">
@@ -194,13 +194,12 @@ php -r "unlink('composer-setup.php');"
                     Konten Pelajaran
                 </div>
                 <ul class="border-end list-unstyled w-100 pe-1" id="course-side-bar">
-                    <a href="#pendahuluan" class="pe-auto" id="pendahuluan">
+                    <a href="#sect1" class="pe-auto">
                         <li>Pendahuluan</li>
                     </a>
-                    <a href="#ringkasan">
+                    <a href="#sect2">
                         <li>Cara Instalasi</li>
                     </a>
-
                 </ul>
             </div>
         </div>

@@ -19,7 +19,7 @@
         <div class="col-8 pe-5 ">
             <div class="isi container">
 
-                <section>
+                <section class="sect1">
                     <h5 id="sect1">Apa itu View di CodeIgniter ?</h5>
                     <article>
                         <p>
@@ -39,7 +39,7 @@
                     </article>
                 </section>
 
-                <section>
+                <section class="sect2">
                     <h5 id="sect2">Cara load view di controller</h5>
                     <article>
                         <p>
@@ -72,7 +72,7 @@
                     </article>
                 </section>
 
-                <section>
+                <section class="sect3">
                     <h5 id="sect3">Membuat View</h5>
                     <article>
                         Kita akan membuat 4 buah view untuk halaman Home, About, Contact, dan Faqs.<br>
@@ -103,7 +103,7 @@ class Page extends BaseController
                     </article>
                 </section>
 
-                <section>
+                <section class="sect4">
                     <h5 id="sect4">1. View untuk halaman store</h5>
                     <article>
                         <p>
@@ -291,7 +291,7 @@ class Page extends BaseController
                     </article>
                 </section>
 
-                <section>
+                <section class="sect5">
                     <h5 id="sect5">2. View untuk Halaman About</h5>
                     <article>
                         <p>
@@ -438,7 +438,7 @@ class Page extends BaseController
                     </article>
                 </section>
 
-                <section>
+                <section class="sect6">
                     <h5 id="sect6">3. View untuk Halaman Contact</h5>
                     <article>
                         <p>
@@ -617,7 +617,7 @@ class Page extends BaseController
                     </article>
                 </section>
 
-                <section>
+                <section class="sect7">
                     <h5 id="sect7">4. View untuk Halaman FAQs</h5>
                     <article>
                         <p>

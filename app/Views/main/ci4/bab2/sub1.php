@@ -29,7 +29,6 @@
                             di dalam sistem sehingga tidak dapat diakses langsung oleh user tanpa melakukan login. <br><br>
                             Untuk itu posisi BeritaController akan bisa diakses setelah user melakukan login.<br><br>
                             Kita perlu menambahkan satu controller baru yang menghandle aktivitas login dan logout. Kita tambahkan 1 file controller dengan nama AuthController.php
-                            <img src="<?= base_url('public/img/static/IconMateri/codeigniter.png'); ?>" alt="">
                         </p>
                         <pre>
                             <code>
@@ -82,6 +81,131 @@ class AuthController extends Controller {
 }
                             </code>
                         </pre>
+                        <p>
+                            Buat 1 file view di folder app->view untuk menampilkan halaman login . Berikan nama file login_page.php
+                        <pre>
+                                <code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Login&lt;/title&gt;
+ &lt;/head&gt;
+&lt;body&gt;
+
+        &lt;form action=&quot;&lt;?= site_url('login'); ?&gt;&quot; method=&quot;post&quot;&gt;
+             Username :
+                    &lt;input name=&quot;username&quot; type=&quot;text&quot;&gt;
+                         Password :
+                  
+  &lt;input name=&quot;password&quot; type=&quot;password&quot;&gt;
+              
+       &lt;button type=&quot;submit&quot;&gt;
+                        Sign In
+                    &lt;/button&gt;
+             
+            &lt;/form&gt;
+       
+&lt;/body&gt;
+&lt;/html&gt;</code>
+                            </pre>
+                        </p>
+
+                        <p>
+                            Lakukan konfigurasi pada file AuthFilter.php didalam folder app->filters
+                        <pre>
+                                <code>&lt;?php namespace App\Filters;
+
+use CodeIgniter\HTTP\RequestInterface;
+use CodeIgniter\HTTP\ResponseInterface;
+use CodeIgniter\Filters\FilterInterface;
+
+class AuthFilter implements FilterInterface
+{
+    public function before(RequestInterface $request, $arguments = null)
+    {
+        // Check if user is not logged in
+        if (!session()-&gt;get('logged_in')) {
+            // Redirect to login
+            return redirect()-&gt;to('/login');
+        }
+    }
+
+    public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)
+    {
+        // Do something here if needed after the request is processed
+    }
+}</code>
+                            </pre>
+                        </p>
+
+                        <p>Modifikasi routing dengan menambahkan autentikasi pada routing dengan mengedit file Routes.php di dalam folder app->config
+                        <pre>
+    <code>&lt;?php
+
+use CodeIgniter\Router\RouteCollection;
+
+/**
+ * @var RouteCollection $routes
+ */
+$routes-&gt;get('/', 'Home::index');
+
+//semua routing yg hanya bisa diakses setelah login dikelompokkan  ke dalam grup bernama //admin 
+
+$routes-&gt;group(admin, ['filter' =&gt; 'auth'], function($routes) {
+
+$routes-&gt;get('/', 'BeritaController::index');
+$routes-&gt;get('/isi_berita', 'BeritaController::create');
+$routes-&gt;post('berita_store', 'BeritaController::store');
+$routes-&gt;get('edit_berita/(:num)', 'BeritaController::edit/$1');
+$routes-&gt;post('update_berita/(:num)', 'BeritaController::update/$1');
+$routes-&gt;get('delete_berita/(:num)', 'BeritaController::delete/$1');
+});
+
+//route dibawah ini tidak harus login
+$routes-&gt;get('login', 'AuthController::login');
+$routes-&gt;post('login', 'AuthController::login');
+$routes-&gt;get('logout', 'AuthController::logout');</code>
+</pre>
+                        </p>
+
+                        <p>
+                            Modifikasi file berita.php didalam folder app->view, tambahkan menu logout.
+                        <pre>
+                                <code>&lt;a href=&quot;&lt;?= site_url('/isi_berita') ?&gt;&quot; &gt;Isi Berita Baru&lt;/a&gt;
+&lt;a href=&quot;&lt;?= site_url('/logout') ?&gt;&quot; &gt;Logout&lt;/a&gt;
+
+&lt;hr&gt;
+
+&lt;?php foreach($berita as $key =&gt; $post) : ?&gt;
+
+&lt;?php echo $post['judul'] ?&gt;
+
+&lt;?php echo $post['berita'] ?&gt;
+
+&lt;a href=&quot;&lt;?= site_url('edit_berita/' . $post['id']) ?&gt;&quot; &gt;Edit&lt;/a&gt;
+&lt;a href=&quot;&lt;?= site_url('delete_berita/' . $post['id']) ?&gt;&quot; &gt;Delete&lt;/a&gt;
+
+&lt;br&gt;
+&lt;?php endforeach ?&gt;</code>
+                            </pre>
+                        </p>
+
+                        <p>Buat file model baru bernama AuthModel.php
+                        <pre>
+                        <code>&lt;?php namespace App\Models;
+
+use CodeIgniter\Model;
+
+class AuthModel extends Model {
+    protected $table = 'user';
+    protected $primaryKey = 'id';
+    protected $allowedFields = ['nama', 'username', 'password', 'status'];
+
+}</code>
+                        </pre>
+                        <img src="\img\static\ci4\bab2\image26.png" alt="">
+                        </p>
                     </article>
                 </section>
 

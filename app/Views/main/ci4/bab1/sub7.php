@@ -19,7 +19,7 @@
         <div class="col-8 pe-5 ">
             <div class="isi container">
 
-                <section>
+                <section class="sect1">
                     <h5 id="sect1">Mengirim Data Ke View</h5>
                     <article>
                         <p>
@@ -78,7 +78,7 @@
                     </article>
                 </section>
 
-                <section>
+                <section class="sect2">
                     <h5 id="sect2">Mengirim Data Array ke View</h5>
                     <article>
                         <p>

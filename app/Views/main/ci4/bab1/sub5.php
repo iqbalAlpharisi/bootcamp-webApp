@@ -19,7 +19,7 @@
         <div class="col-8 pe-5 ">
             <div class="isi container">
 
-                <section>
+                <section class="sect1">
                     <h5 id="sect1">Membuat Routes di Codeigniter</h5>
                     <article>
                         <p>Oke, sekarang coba lihat kembali kode aplikasi latihanci4.<br>
@@ -69,7 +69,7 @@ $routes->get('/faqs', 'Page::faqs');
                     </article>
                 </section>
 
-                <section>
+                <section class="sect2">
                     <h5 id="sect2">Membuat Controller</h5>
                     <article>
                         <p>Silahkan buat file baru di dalam folder app/Controllers dengan nama Page.php <br><br>
@@ -121,7 +121,7 @@ class Page extends BaseController
                     </article>
                 </section>
 
-                <section>
+                <section class="sect3">
                     <h5 id="sect3">Menambahkan Bootstrap di Codeigniter 4</h5>
                     <article>
                         <p>Pertama.. silahkan download Bootstrap dari link berikut ini:

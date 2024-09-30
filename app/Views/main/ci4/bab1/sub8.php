@@ -19,8 +19,8 @@
         <div class="col-8 pe-5 ">
             <div class="isi container">
 
-                <section>
-                    <h5 id="sub1">Praktik Menampilkan Data (Read)</h5>
+                <section class="sect1">
+                    <h5 id="sect1">Praktik Menampilkan Data (Read)</h5>
                     <article>
                         <p>
                             Pada praktik ini, Anda diminta untuk membuat tampilan web dari database yang sudah dibuat.
@@ -144,8 +144,8 @@ $routes-&gt;get('/berita', 'BeritaController::index');</code>
                     </article>
                 </section>
 
-                <section>
-                    <h5 id="sub2">Praktik Mengisi Data (Create)</h5>
+                <section class="sect2">
+                    <h5 id="sect2">Praktik Mengisi Data (Create)</h5>
                     <article>
                         <p>
                             Pada bagian ini Anda akan mempraktikan cara melakukan pengisian data ke database melalui form. <br><br>
@@ -270,8 +270,8 @@ $routes-&gt;post('/berita_store', 'BeritaController::store');
                     </article>
                 </section>
 
-                <section>
-                    <h5 id="sub3">Praktik Mengedit Data (Update)</h5>
+                <section class="sect3">
+                    <h5 id="sect3">Praktik Mengedit Data (Update)</h5>
                     <article>
                         <p>
                             Pada bagian ini Anda akan mempraktekan cara melakukan pengeditan data di database. <br>
@@ -411,8 +411,8 @@ $routes-&gt;post('update_berita/(:num)', 'BeritaController::update/$1');</code>
                     </article>
                 </section>
 
-                <section>
-                    <h5 id="sub4">Praktik Menghapus Data (Delete)</h5>
+                <section class="sect4">
+                    <h5 id="sect4">Praktik Menghapus Data (Delete)</h5>
                     <article>
                         <p>
                             Pada bagian ini Anda akan mempraktekan cara melakukan penghapusan data di database.

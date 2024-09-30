@@ -19,14 +19,14 @@
         <div class="col-8 pe-5 ">
             <div class="isi container">
 
-                <section>
+                <section class="sect1">
                     <h5 id="sect1">Download Xampp</h5>
                     <div>Download pada alamat berikut : <br>
                         <a href="https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.4/xampp-windows-x64-8.2.4-0-VS16-installer.exe/download">https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.4/xampp-windows-x64-8.2.4-0-VS16-installer.exe/download</a>
                     </div>
                 </section>
 
-                <section>
+                <section class="sect2">
                     <h5 id="sect2">Instalasi</h5>
                     <div>
                         <p>Jika anda menggunakan Windows Vista ke atas (termasuk Windows 10 dan Windows 11), akan muncul jendela peringatan untuk tidak menginstall XAMPP pada folder C:\Program Files.
@@ -54,7 +54,7 @@
                     </div>
                 </section>
 
-                <section>
+                <section class="sect3">
                     <h5 id="sect3">Running Xampp</h5>
                     <div>
                         <p>Setelah XAMPP berhasil di install, akan tampil jendela "XAMPP Control Panel". Di jendela inilah kita akan menjalankan seluruh aplikasi yang ada di XAMPP, diantaranya Apache Web Server dan MySQL.</p>

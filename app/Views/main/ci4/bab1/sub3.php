@@ -19,7 +19,7 @@
         <div class="col-8 pe-5 ">
             <div class="isi container">
 
-                <section>
+                <section class="sect1">
                     <h5 id="sect1">Persiapan</h5>
                     <div>
                         <div>Kita akan meletakkan file-file pekerjaan web didalam folder htdocs. Untuk itu prosedur instalasi Codeigniter akan dimulai dengan membukan windows explorer di
@@ -37,7 +37,7 @@
                     </div>
                 </section>
 
-                <section>
+                <section class="sect2">
                     <h5 id="sect2">Proses Instalasi</h5>
                     <div>
                         <div>
@@ -52,7 +52,7 @@
                     </div>
                 </section>
 
-                <section>
+                <section class="sect3">
                     <h5 id="sect3">Menjalankan Code Igniter</h5>
                     <div>
                         <p>Cek kembali isi dari folder htdocs, maka Anda akan menemuikan folder baru
