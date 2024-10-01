@@ -92,18 +92,18 @@
                 <div class="row row-cols-1 row-cols-md-3 g-4">
 
                     <div class="col">
-                        <a href="/course1">
+                        <a href="/ci4">
                             <div class="card h-100">
-                                <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
+                                <img src="/img/static/iconMateri/codeigniter.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Kursus pengembangan web 2024</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h5 class="card-title">Code Igniter 4</h5>
+                                    <p class="card-text">Pelajari cara menggunakan Kerangka Kerja PHP MVC Paling Populer dan buat aplikasi terbaik, mudah, aman, dan cepat.</p>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col">
-                        <a href="/course1">
+                        <a href="">
                             <div class="card h-100">
                                 <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
                                 <div class="card-body">

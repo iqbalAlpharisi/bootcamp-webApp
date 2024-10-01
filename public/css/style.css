@@ -418,3 +418,29 @@ a {
     color: rgb(33, 198, 159);
     text-decoration: none;
 }
+
+/* path Page */
+.path{
+    background-color: #f9fafb;
+}
+.pathSect{
+    background-color: white;
+    box-shadow: 1px #000;
+    margin-bottom: 40px;
+    border: solid rgb(240, 240, 240);
+}
+.numBab{
+    padding: 10px 0px 10px 20px;
+    border-bottom: solid rgb(240, 240, 240);
+    margin: 0;
+}
+.judulSub{
+    padding: 10px 0px 10px 20px;
+    margin:10px 0px;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+.judulSub:hover{
+    background-color: rgb(33, 198, 159);
+    color: white;
+}
