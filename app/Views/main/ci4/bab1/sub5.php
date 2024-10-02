@@ -3,6 +3,7 @@
 
 <div class="container w-75" id="modulKonten">
     <div class="row">
+
         <div class="col mt-5 p-0 container-fluid d-flex" id="headmodul">
             <div class="rounded-circle" style="background-image: url('/img/static/iconMateri/codeigniter.png');" id="mask"></div>
             <div class="container mx-0 my-auto">
@@ -19,8 +20,8 @@
         <div class="col-8 pe-5 ">
             <div class="isi container">
 
-                <section class="sect1">
-                    <h5 id="sect1">Membuat Routes di Codeigniter</h5>
+                <section class="sect1" id="sect1">
+                    <h5>Membuat Routes di Codeigniter</h5>
                     <article>
                         <p>Oke, sekarang coba lihat kembali kode aplikasi latihanci4.<br>
                             Buka file app/config/Routes.php.
@@ -69,8 +70,8 @@ $routes->get('/faqs', 'Page::faqs');
                     </article>
                 </section>
 
-                <section class="sect2">
-                    <h5 id="sect2">Membuat Controller</h5>
+                <section class="sect2" id="sect2">
+                    <h5>Membuat Controller</h5>
                     <article>
                         <p>Silahkan buat file baru di dalam folder app/Controllers dengan nama Page.php <br><br>
                             Pastikan kamu menggunakan huruf kapital di awal nama file. Karena ini sudah menjadi aturan pada Codeigniter.<br><br>
@@ -121,8 +122,8 @@ class Page extends BaseController
                     </article>
                 </section>
 
-                <section class="sect3">
-                    <h5 id="sect3">Menambahkan Bootstrap di Codeigniter 4</h5>
+                <section class="sect3" id="sect3">
+                    <h5>Menambahkan Bootstrap di Codeigniter 4</h5>
                     <article>
                         <p>Pertama.. silahkan download Bootstrap dari link berikut ini:
                         <div>
@@ -154,35 +155,34 @@ class Page extends BaseController
                 </section>
 
 
+                <?= $this->include('layout\navigationBtn'); ?>
 
-                <section class="my-5 d-flex justify-content-around">
-                    <button type="button" class="btn btn-outline-dark px-3"><i class="bi bi-book-half"></i> Lihat Modul</button>
-                    <button type="button" class="btn btn-dark py-2 px-5" style="background-color: rgb(10, 226, 176);">Track Progress</button>
-                    <a href="<?= $nextSlug ?>" id="nextPage"><button type="button" class="btn btn-outline-dark px-3"><i class="bi bi-arrow-right-short"></i> Selanjutnya</button></a>
-                </section>
+
             </div>
         </div>
 
-        <div class="col-2 me-auto top-0" id="sidebar">
+        <div class="col-2 me-auto top-0 d-md-none d-lg-block" id="sidebar">
             <div class="container-fluid mt-4">
                 <div>
                     Konten Pelajaran
                 </div>
-                <ul class="border-end list-unstyled w-100 pe-1" id="course-side-bar">
-                    <a href="#sect1" class="pe-auto" id="pendahuluan">
+                <ul class="border-end list-unstyled w-100 pe-1 " id="course-side-bar">
+                    <a href="#sect1" class="link-1 pe-auto">
                         <li>Membuat Routes</li>
                     </a>
-                    <a href="#sect2">
+                    <a href="#sect2" class="link-2">
                         <li>Membuat Controller</li>
                     </a>
-                    <a href="#sect3">
+                    <a href="#sect3" class="link-3">
                         <li>Menambah Bootstrap</li>
                     </a>
                 </ul>
             </div>
         </div>
+
     </div>
-
-
 </div>
+
+
+
 <?= $this->endSection(); ?>

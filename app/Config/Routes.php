@@ -9,6 +9,7 @@ $routes->get('/', 'Pages\Home::index');
 $routes->get('/login', 'Pages\Home::loginPage');
 $routes->get('/myCourse', 'Pages\Home::myCourse');
 $routes->get('/store', 'Pages\Home::store');
+$routes->get('/all-modul', 'Pages\Home::modulList');
 
 // Modul CI4
 $routes->get('/ci4', 'Pages\Home::ci4');

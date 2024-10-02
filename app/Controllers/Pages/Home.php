@@ -36,6 +36,14 @@ class Home extends BaseController
         ];
         return view('main\store', $data);
     }
+    public function modulList(): string
+    {
+        $data = [
+            'tittle' => 'Modul',
+            'navbar' => 'navbar2'
+        ];
+        return view('main\modulList', $data);
+    }
     public function ci4(): string
     {
         $data = [

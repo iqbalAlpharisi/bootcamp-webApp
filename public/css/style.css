@@ -336,15 +336,9 @@ a {
     max-width: 40%;
     height: auto;
 }
-#sidebar{
-    position: sticky;
-    max-height: 100vh;
-}
+
 .flex-grow-1{
     margin-top: 450px;
-}
-.sidemenu{
-    cursor: pointer;
 }
 .modul .card{
     font-size: 0.8em;
@@ -356,7 +350,25 @@ a {
     border-color: rgb(33, 198, 159);
     cursor: pointer;
 }
-
+/* sideNav */
+#sidebar.hidden {
+    display: none;
+}
+.sidemenu{
+    cursor: pointer;
+}
+#sidebar{
+    position: sticky;
+    max-height: 100vh;
+}
+.sidemenu div{
+    border-radius: 5px;
+    transition: 0.1s;
+}
+.sidemenu div:hover{
+    background-color: rgb(33, 198, 159);
+    color: white;
+}
 /* modul */
 #mask{
     width: 100px; 
@@ -418,7 +430,9 @@ a {
     color: rgb(33, 198, 159);
     text-decoration: none;
 }
-
+.activeNav{
+    background-color: #0000EE;
+}
 /* path Page */
 .path{
     background-color: #f9fafb;

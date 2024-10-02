@@ -20,6 +20,7 @@
     <?php endif; ?>
 
 
+
     <?= $this->renderSection('konten'); ?>
 
 
@@ -27,6 +28,7 @@
 
 
     <?= $this->include('layout\footer'); ?>
+    <script src="<?= base_url('js/script.js'); ?>" defer></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -39,7 +41,8 @@
     <!-- <script>
         hljs.initLineNumbersOnLoad();
     </script> -->
-    <script src="\js\script.js"></script>
+
+
 
 
 
