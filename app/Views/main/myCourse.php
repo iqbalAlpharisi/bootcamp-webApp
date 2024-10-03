@@ -6,6 +6,7 @@
         <!-- Sidebar -->
         <?= $this->include('layout\sidebar'); ?>
 
+
         <!-- main -->
         <div class="col-10 p-5" style="background-color:#DCDCDC;" id="mainContent">
             <!-- Sorting Section -->
