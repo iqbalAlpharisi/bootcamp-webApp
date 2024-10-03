@@ -1,7 +1,10 @@
 <?= $this->extend('\layout\template'); ?>
 
 <?= $this->section('konten'); ?>
-<?= $this->include('layout\sidebar'); ?>
+<?= $this->include('layout/sidebar'); ?>
+
+<div id="overlay" class="overlay"></div>
+
 <div class="container w-75" id="modulKonten">
     <div class="row">
         <div class="col mt-5 p-0 container-fluid d-flex" id="headmodul">

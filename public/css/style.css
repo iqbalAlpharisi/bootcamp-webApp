@@ -299,7 +299,7 @@ a {
 }
 
 .profile-menu .bi-bell {
-    font-size: 1.5rem; /* Adjust the size as needed */
+    font-size: 1.5rem; 
 }
 /* myCourse */
 .sorting button{
@@ -369,6 +369,31 @@ a {
     background-color: rgb(33, 198, 159);
     color: white;
 }
+#sidebarEX {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(10, 226, 176); 
+    color: white;
+    z-index: 1000; 
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 999; 
+    display: none; 
+}
+.overlay.show {
+    display: block; 
+}
+
+
 /* modul */
 #mask{
     width: 100px; 
@@ -490,3 +515,5 @@ a {
 #btn-to-modul:hover{
     background-color: rgb(25, 143, 115);
 }
+
+

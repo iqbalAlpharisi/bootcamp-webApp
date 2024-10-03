@@ -1,13 +1,58 @@
 <nav class="navbar navbar-expand-md navbar-light d-flex" style="background-color: rgb(10, 226, 176);">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#" id="toggle-sidebar">
+        <button class="px-2" id="openToggleButton" style="all:unset; cursor:pointer">
             <i class="bi bi-list"></i>
-        </a>
+        </button>
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navLink">
             <span class="navbar-toggler-icon"></span>
         </button>
 
+        <div class="col-2 top-0 d-none" id="sidebarEX">
+            <div class="container p-2 fs-5 d-flex flex-column sidemenu">
+
+                <div class="container py-2 my-2" id="closeToggleButton">
+                    <button class="d-flex align-items-center text-decoration-none" style="all:unset; cursor:pointer">
+                        <i class="bi bi-x-circle-fill ps-3"></i>
+                        <span>Close</span>
+                    </button>
+                </div>
+
+
+                <div class="container py-2 my-2">
+                    <a href="/myCourse" class="d-flex align-items-center text-decoration-none">
+                        <i class="bi bi-house ps-3"></i>
+                        <span>Home</span>
+                    </a>
+                </div>
+                <div class="container py-2 my-2">
+                    <a href="/all-modul" class="d-flex align-items-center text-decoration-none">
+                        <i class="bi bi-mortarboard ps-3"></i>
+                        <span>Modul</span>
+                    </a>
+                </div>
+                <div class="container py-2 my-2">
+                    <a href="/main" class="d-flex align-items-center text-decoration-none">
+                        <i class="bi bi-cart ps-3"></i>
+                        <span>Keranjang</span>
+                    </a>
+                </div>
+                <div class="container py-2 my-2">
+                    <a href="/main" class="d-flex align-items-center text-decoration-none">
+                        <i class="bi bi-shop ps-3"></i>
+                        <span>Store</span>
+                    </a>
+                </div>
+
+
+                <div class="container py-2" style="margin-top: 370px;">
+                    <a href="/logout" class="d-flex align-items-center text-decoration-none">
+                        <i class="bi bi-box-arrow-right ps-3"></i>
+                        <span>Log Out</span>
+                    </a>
+                </div>
+            </div>
+        </div>
         <div class="flex-row-reverse" id="navLink">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 profile-menu">
                 <li><a href=""><i class="bi bi-bell d-flex align-items-center justify-content-center bell-icon ms-4"></a></i></li>
@@ -30,3 +75,24 @@
         </div>
     </div>
 </nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarEX');
+
+        const currentPath = window.location.pathname;
+
+        if (currentPath !== '/myCourse') {
+            document.getElementById('openToggleButton').addEventListener('click', function() {
+                sidebar.classList.toggle('d-none');
+                overlay.classList.toggle('show');
+            });
+
+            document.getElementById('closeToggleButton').addEventListener('click', function() {
+                sidebar.classList.toggle('d-none');
+                overlay.classList.toggle('show');
+            });
+        }
+    });
+</script>

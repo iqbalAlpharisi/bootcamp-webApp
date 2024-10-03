@@ -63,22 +63,5 @@ document.addEventListener("DOMContentLoaded", function() {
   const observer = new IntersectionObserver(observerCallback, observerOptions);
   sections.forEach((sec) => observer.observe(sec));
 
-  // sideNav
-  const toggleButton = document.getElementById('toggle-sidebar');
-  const sidebar = document.getElementById('sidebar');
-  const column = document.getElementById('myCourse');
 
-  toggleButton.addEventListener('click', function(event) {
-      event.preventDefault();
-      sidebar.classList.toggle('hidden');
-
-
-      if (column.classList.contains('col-10')) {
-          column.classList.remove('col-10');
-          column.classList.add('col-12');
-      } else {
-          column.classList.remove('col-12');
-          column.classList.add('col-10');
-      }
-  });
 });

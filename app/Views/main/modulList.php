@@ -1,6 +1,9 @@
 <?= $this->extend('layout/template'); ?>
 
 <?= $this->section('konten'); ?>
+<?= $this->include('layout/sidebar'); ?>
+
+<div id="overlay" class="overlay"></div>
 <div class="container-fluid" id="all-modul-bg">
     <div class="container w-75 mx-auto">
 
@@ -92,4 +95,6 @@
 
     </div>
 </div>
+
+
 <?= $this->endSection(); ?>
