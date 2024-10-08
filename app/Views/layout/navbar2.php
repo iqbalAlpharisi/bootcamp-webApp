@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-light d-flex" style="background-color: rgb(10, 226, 176);">
+<nav class="navbar navbar-expand-md navbar-light d-flex" id="navbar2">
     <div class="container-fluid">
         <button class="px-2" id="openToggleButton" style="all:unset; cursor:pointer">
             <i class="bi bi-list"></i>
@@ -21,26 +21,26 @@
 
                 <div class="container py-2 my-2">
                     <a href="/myCourse" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-house ps-3"></i>
+                        <i class="bi bi-house-fill ps-3"></i>
                         <span>Home</span>
                     </a>
                 </div>
                 <div class="container py-2 my-2">
                     <a href="/all-modul" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-mortarboard ps-3"></i>
+                        <i class="bi bi-mortarboard-fill ps-3"></i>
                         <span>Modul</span>
                     </a>
                 </div>
                 <div class="container py-2 my-2">
-                    <a href="/main" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-cart ps-3"></i>
+                    <a href="/keranjang" class="d-flex align-items-center text-decoration-none">
+                        <i class="bi bi-cart-fill ps-3"></i>
                         <span>Keranjang</span>
                     </a>
                 </div>
                 <div class="container py-2 my-2">
-                    <a href="/main" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-shop ps-3"></i>
-                        <span>Store</span>
+                    <a href="/setting" class="d-flex align-items-center text-decoration-none">
+                        <i class="bi bi-gear-fill ps-3"></i>
+                        <span>Setting</span>
                     </a>
                 </div>
 
@@ -63,8 +63,7 @@
                         </div>
                     </a>
                     <ul class="dropdown-menu text-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#"><i class="fas fa-sliders-h fa-fw"></i> Account</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="fas fa-cog fa-fw"></i> Settings</a></li>
+                        <li><a class="dropdown-item" href="/setting"><i class="fas fa-cog fa-fw"></i> Pengaturan</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
@@ -83,7 +82,7 @@
 
         const currentPath = window.location.pathname;
 
-        if (currentPath !== '/myCourse') {
+        if (currentPath !== '/myCourse' && currentPath !== '/setting') {
             document.getElementById('openToggleButton').addEventListener('click', function() {
                 sidebar.classList.toggle('d-none');
                 overlay.classList.toggle('show');

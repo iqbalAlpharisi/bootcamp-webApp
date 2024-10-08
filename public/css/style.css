@@ -274,6 +274,10 @@ a {
     transform: translateX(200%);
 }
 /* navbar2 */
+#navbar2{
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    background-color: rgb(10, 226, 176);
+}
 .profile-pic{
     display: inline-block;
     vertical-align: middle;
@@ -351,13 +355,13 @@ a {
     cursor: pointer;
 }
 /* sideNav */
-#sidebar.hidden {
+.sidebar.hidden {
     display: none;
 }
 .sidemenu{
     cursor: pointer;
 }
-#sidebar{
+.sidebar{
     position: sticky;
     max-height: 100vh;
 }
@@ -516,4 +520,43 @@ a {
     background-color: rgb(25, 143, 115);
 }
 
+/* setting */
+#side-setting{
+    background-color: rgb(10, 226, 176);
+    
+}
+#head-setting{
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 25px 0 0 50px;
+}
+#content-setting{
+    margin: 25px 0 0 50px;
+}
+#profile-form{
+    margin: 25px 0 0 50px;
+}
+#save-btn{
+    background-color: rgb(10, 226, 176);
+    padding: 5px 25px 5px 25px;
+    color: white;
+    border: #f9f9f9;
+    margin-top: 15px;
+}
+
+/* keranjang */
+#keranjang-page{
+    margin: 25px 0 0 50px;
+}
+#page-keranjang-tittle{
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0 0 15px 0;
+}
+.page-keranjang-img-modul{
+    width: 100px; 
+    height: 100px;
+    background-size: cover; 
+    background-position: center; 
+}
 

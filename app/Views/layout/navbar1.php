@@ -14,13 +14,13 @@
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/modul">Modul</a>
+                    <a class="nav-link" href="/all-modul">Modul</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/login">Log In</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <button type="button" class="btnDaftar">Daftar Sekarang !</button>
+                    <a id="navigateToFormPage" href="/login"><button type="button" class="btnDaftar">Daftar Sekarang !</button></a>
                 </li>
             </ul>
         </div>

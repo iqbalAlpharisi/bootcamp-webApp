@@ -13,6 +13,8 @@ class Home extends BaseController
         ];
         return view('landingPage\home', $data);
     }
+
+
     public function loginPage(): string
     {
         $data = [
@@ -20,6 +22,8 @@ class Home extends BaseController
         ];
         return view('landingPage\loginPage', $data);
     }
+
+
     public function myCourse(): string
     {
         $data = [
@@ -28,14 +32,27 @@ class Home extends BaseController
         ];
         return view('main\myCourse', $data);
     }
-    public function store(): string
+
+
+    public function setting(): string
     {
         $data = [
-            'tittle' => 'Store',
+            'tittle' => 'Setting',
             'navbar' => 'navbar2'
         ];
-        return view('main\store', $data);
+        return view('main\setting', $data);
     }
+
+    public function keranjang(): string
+    {
+        $data = [
+            'tittle' => 'Keranjang',
+            'navbar' => 'navbar2'
+        ];
+        return view('main\keranjang', $data);
+    }
+
+
     public function modulList(): string
     {
         $data = [
@@ -44,6 +61,8 @@ class Home extends BaseController
         ];
         return view('main\modulList', $data);
     }
+
+
     public function ci4(): string
     {
         $data = [

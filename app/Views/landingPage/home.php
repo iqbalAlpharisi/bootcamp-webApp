@@ -8,7 +8,7 @@
             <h3 class="fs-5 fw-lighter mt-4 w-50 text-center mx-auto">Di sini, kami menawarkan program pelatihan intensif yang
                 dirancang khusus untuk membantu Anda menguasai keterampilan pengembangan web terkini,
                 mulai dari dasar hingga tingkat lanjut. </h3>
-            <a class="text-reset" href="/myCourse">
+            <a class="text-reset" href="/login">
                 <button type="button" class="btn1">Mulai Sekarang</button>
             </a>
         </div>
@@ -117,9 +117,9 @@
 
             <div class="col">
                 <div class="card pb-5 h-100">
-                    <img class="mt-4 w-50 mx-auto d-block" src="img\static\htmlcss.png" class="card-img-top" alt="...">
+                    <img class="mt-4 w-50 mx-auto d-block" src="img/static/IconMateri/codeigniter.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">HTML dan CSS</h5>
+                        <h5 class="card-title">Code Igniter 4</h5>
                     </div>
                 </div>
             </div>
@@ -134,8 +134,8 @@
             </div>
 
         </div>
-        <a class="text-reset" href="/store">
-            <button type="button" class="btn1 my-3">Lihat Modul Lainnya</button>
+        <a class="text-reset" href="/all-modul">
+            <button type="button" class="btn1 my-5">Lihat Modul Lainnya</button>
         </a>
     </div>
 </div>

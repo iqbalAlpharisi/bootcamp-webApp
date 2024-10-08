@@ -4,27 +4,27 @@
 <div class="container-fluid">
     <div class="row">
         <!-- Sidebar -->
-        <div class="col-2 position-sticky top-0" id="sidebar">
+        <div class="col-2 position-sticky top-0 sidebar">
             <div class="container p-2 fs-5 d-flex flex-column sidemenu">
                 <div class="container py-2 my-2">
-                    <a href="/" class="d-flex align-items-center text-decoration-none">
+                    <a href="/myCourse" class="d-flex align-items-center text-decoration-none">
                         <i class="bi bi-house ps-3"></i>
                         <span>Home</span></a>
                 </div>
                 <div class="container py-2 my-2">
-                    <a href="/main" class="d-flex align-items-center text-decoration-none">
+                    <a href="/all-modul" class="d-flex align-items-center text-decoration-none">
                         <i class="bi bi-mortarboard ps-3"></i>
                         <span>Modul</span></a>
                 </div>
                 <div class="container py-2 my-2">
-                    <a href="/main" class="d-flex align-items-center text-decoration-none">
+                    <a href="/keranjang" class="d-flex align-items-center text-decoration-none">
                         <i class="bi bi-cart ps-3"></i>
                         <span>Keranjang</span></a>
                 </div>
                 <div class="container py-2 my-2">
-                    <a href="/main" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-shop ps-3"></i>
-                        <span>Store</span></a>
+                    <a href="/setting" class="d-flex align-items-center text-decoration-none">
+                        <i class="bi bi-gear ps-3"></i>
+                        <span>Setting</span></a>
                 </div>
 
                 <div class="flex-grow-1"></div>

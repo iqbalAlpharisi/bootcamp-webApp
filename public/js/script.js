@@ -12,11 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
       container.classList.remove("active");
   });
 
-  const list = document.querySelector('#pendahuluan');
-
-  list.addEventListener('click', () => {
-      list.classList.add("listScroll");
-  });
 
   // scroll aware
   function selectElementByClass(className) {

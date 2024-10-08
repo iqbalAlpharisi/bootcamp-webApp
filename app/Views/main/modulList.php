@@ -1,7 +1,7 @@
 <?= $this->extend('layout/template'); ?>
 
 <?= $this->section('konten'); ?>
-<?= $this->include('layout/sidebar'); ?>
+
 
 <div id="overlay" class="overlay"></div>
 <div class="container-fluid" id="all-modul-bg">

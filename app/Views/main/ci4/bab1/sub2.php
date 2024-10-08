@@ -1,6 +1,6 @@
 <?= $this->extend('\layout\template'); ?>
 <?= $this->section('konten'); ?>
-<?= $this->include('layout/sidebar'); ?>
+
 
 <div id="overlay" class="overlay"></div>
 
@@ -183,11 +183,8 @@ php -r "unlink('composer-setup.php');"
                     </ol>
                 </div>
 
-                <section class="my-5 d-flex justify-content-around">
-                    <button type="button" class="btn btn-outline-dark px-3"><i class="bi bi-book-half"></i> Lihat Modul</button>
-                    <button type="button" class="btn btn-dark py-2 px-5" style="background-color: rgb(10, 226, 176);">Track Progress</button>
-                    <a href="<?= $nextSlug ?>" id="nextPage"><button type="button" class="btn btn-outline-dark px-3"><i class="bi bi-arrow-right-short"></i> Selanjutnya</button></a>
-                </section>
+                <?= $this->include('layout\navigationBtn'); ?>
+
             </div>
         </div>
 
