@@ -43,16 +43,6 @@ class Home extends BaseController
         return view('main\setting', $data);
     }
 
-    public function keranjang(): string
-    {
-        $data = [
-            'tittle' => 'Keranjang',
-            'navbar' => 'navbar2'
-        ];
-        return view('main\keranjang', $data);
-    }
-
-
     public function modulList(): string
     {
         $data = [

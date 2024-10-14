@@ -16,11 +16,7 @@
                         <i class="bi bi-mortarboard ps-3"></i>
                         <span>Modul</span></a>
                 </div>
-                <div class="container py-2 my-2">
-                    <a href="/keranjang" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-cart ps-3"></i>
-                        <span>Keranjang</span></a>
-                </div>
+
                 <div class="container py-2 my-2">
                     <a href="/setting" class="d-flex align-items-center text-decoration-none">
                         <i class="bi bi-gear ps-3"></i>
@@ -103,94 +99,31 @@
                             </div>
                         </a>
                     </div>
+
                     <div class="col">
                         <a href="">
                             <div class="card h-100">
                                 <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Kursus pengembangan web 2024</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h5 class="card-title">Judul Modul </h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, sed placeat! Corporis cum molestias officiis, neque.</p>
                                 </div>
                             </div>
                         </a>
                     </div>
+
                     <div class="col">
                         <a href="/course1course1">
                             <div class="card h-100">
                                 <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Kursus pengembangan web 2024</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h5 class="card-title">Judul Modul </h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, sed placeat! Corporis cum molestias officiis, neque.</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col">
-                        <a href="/course1">
-                            <div class="card h-100">
-                                <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kursus pengembangan web 2024</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="/course1">
-                            <div class="card h-100">
-                                <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kursus pengembangan web 2024</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="/course1">
-                            <div class="card h-100">
-                                <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kursus pengembangan web 2024</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="/course1">
-                            <div class="card h-100">
-                                <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kursus pengembangan web 2024</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="/course1">
-                            <div class="card h-100">
-                                <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kursus pengembangan web 2024</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="/">
-                            <div class="card h-100">
-                                <img src="\img\static\htmlcss.png" class="card-img-top img-fluid mx-auto pt-4" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kursus pengembangan web 2024</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+
 
                 </div>
             </section>

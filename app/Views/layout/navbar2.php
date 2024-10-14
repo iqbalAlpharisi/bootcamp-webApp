@@ -31,12 +31,7 @@
                         <span>Modul</span>
                     </a>
                 </div>
-                <div class="container py-2 my-2">
-                    <a href="/keranjang" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-cart-fill ps-3"></i>
-                        <span>Keranjang</span>
-                    </a>
-                </div>
+
                 <div class="container py-2 my-2">
                     <a href="/setting" class="d-flex align-items-center text-decoration-none">
                         <i class="bi bi-gear-fill ps-3"></i>
@@ -45,7 +40,7 @@
                 </div>
 
 
-                <div class="container py-2" style="margin-top: 370px;">
+                <div class="container py-2" style="margin-top: 450px;">
                     <a href="/logout" class="d-flex align-items-center text-decoration-none">
                         <i class="bi bi-box-arrow-right ps-3"></i>
                         <span>Log Out</span>

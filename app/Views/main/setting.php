@@ -1,4 +1,4 @@
-<?= $this->extend('layout\template'); ?>
+<?= $this->extend('layout/template'); ?>
 
 <?= $this->section('konten'); ?>
 
@@ -17,11 +17,7 @@
                         <i class="bi bi-mortarboard ps-3"></i>
                         <span>Modul</span></a>
                 </div>
-                <div class="container py-2 my-2">
-                    <a href="/" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-cart ps-3"></i>
-                        <span>Keranjang</span></a>
-                </div>
+
                 <div class="container py-2 my-2">
                     <a href="/" class="d-flex align-items-center text-decoration-none">
                         <i class="bi bi-gear ps-3"></i>
@@ -38,17 +34,29 @@
             </div>
         </div>
 
-        <div class="col-10 content-setting">
+        <div class="col-10" id="setting-sect">
             <div id="head-setting">Profile & Pengaturan</div>
             <div id="content-setting">
                 <div class="d-flex flex-row ">
-                    <div class="ms-5 pb-2">Profile</div>
-                    <div class="ms-5 pb-2">Profile picture</div>
-                    <div class="ms-5 pb-2">Privacy</div>
+
+                    <button id="profile-btn" class="ms-5 pb-2 setting-active">
+                        Profile
+                    </button>
+
+                    <button id="profile-picture-btn" class="ms-5 pb-2">
+                        Profile Picture
+                    </button>
+
+
                 </div>
                 <hr class="fw-bold p-0 m-0">
             </div>
-            <form action="#" id="profile-form">
+
+            <form action="#" id="profile-form" name="profile-form">
+                <div class="mb-3">
+                    <label for="nama" class="form-label">Username</label>
+                    <input type="text" class="form-control w-75" id="namaUser" aria-describedby="namaHelp">
+                </div>
                 <div class="mb-3">
                     <label for="nama" class="form-label">Nama</label>
                     <input type="text" class="form-control w-75" id="namaUser" aria-describedby="namaHelp">
@@ -68,8 +76,25 @@
 
                 <button id="save-btn">Save</button>
             </form>
+
+            <form class="d-none" action="#" id="profilePicture-form" name="profilePicture-form">
+                <h5>Preview Gambar</h5>
+                <div class="preview-gambar">
+                    <img class="mx-auto" src="<?= base_url('/img/static/default-pfp.jpg'); ?>" alt="preview image">
+                </div>
+
+                <div class="mb-3">
+                    <input class="form-control w-75" type="file" id="formFile">
+                    <label for="formFile" class="form-label"></label>
+                </div>
+                <button id="save-btn">Save</button>
+            </form>
+
+
         </div>
 
     </div>
 </div>
+
+
 <?= $this->endSection(); ?>

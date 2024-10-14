@@ -60,3 +60,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 });
+
+// Page Setting
+document.getElementById('profile-btn').addEventListener('click', function() {
+    document.getElementById('profile-form').classList.remove('d-none');
+    document.getElementById('profilePicture-form').classList.add('d-none');
+    document.getElementsById('div-p').classList.add('setting-active');
+    document.getElementsById('div-o').classList.remove('setting-active');
+});
+
+document.getElementById('profile-picture-btn').addEventListener('click', function() {
+    document.getElementById('profile-form').classList.add('d-none');
+    document.getElementById('profilePicture-form').classList.remove('d-none');
+    document.getElementsById('div-o').classList.add('setting-active');
+    document.getElementsById('div-p').classList.remove('setting-active');
+});

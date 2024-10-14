@@ -23,9 +23,6 @@ a {
     border-color: #A3A66A;
     border-radius: 5px;
 }
-.btnDaftar:hover{
-
-}
 /* landing Page */
 #highlightText {
     color:  rgb(33, 198, 159) !important;
@@ -358,9 +355,6 @@ a {
 .sidebar.hidden {
     display: none;
 }
-.sidemenu{
-    cursor: pointer;
-}
 .sidebar{
     position: sticky;
     max-height: 100vh;
@@ -491,6 +485,7 @@ a {
 /* All Modul Page */
 #all-modul-bg{
     background-color: #f9f9f9;
+    padding-bottom: 5rem;
 }
 .lineJudul{
     size: 25px;
@@ -522,8 +517,7 @@ a {
 
 /* setting */
 #side-setting{
-    background-color: rgb(10, 226, 176);
-    
+    background-color: rgb(10, 226, 176);   
 }
 #head-setting{
     font-weight: 500;
@@ -533,7 +527,7 @@ a {
 #content-setting{
     margin: 25px 0 0 50px;
 }
-#profile-form{
+#setting-sect form{
     margin: 25px 0 0 50px;
 }
 #save-btn{
@@ -541,22 +535,29 @@ a {
     padding: 5px 25px 5px 25px;
     color: white;
     border: #f9f9f9;
-    margin-top: 15px;
+    margin-block: 15px;
+}
+#content-setting button{
+    all: unset;
+    cursor: pointer;
+}
+.preview-gambar{
+    border: solid black;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.preview-gambar>img{
+    max-width: 100%;
+    max-height: 100%;
+   
+}
+#setting-sect #content-setting button:hover{
+    font-weight: 900;
+    
 }
 
-/* keranjang */
-#keranjang-page{
-    margin: 25px 0 0 50px;
-}
-#page-keranjang-tittle{
-    font-weight: 500;
-    font-size: 2rem;
-    margin: 0 0 15px 0;
-}
-.page-keranjang-img-modul{
-    width: 100px; 
-    height: 100px;
-    background-size: cover; 
-    background-position: center; 
-}
+
 

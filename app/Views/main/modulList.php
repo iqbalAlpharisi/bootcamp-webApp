@@ -32,19 +32,19 @@
                         Pelajari cara menggunakan Kerangka Kerja PHP MVC Paling Populer dan buat aplikasi terbaik, mudah, aman, dan cepat.
                     </div>
                     <div class="col-4 px-4 pt-4 mx-auto d-flex flex-column align-items-end justify-content-center">
-                        <div>Rp.50.000</div>
                         <div>2 BAB</div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="rounded-3 py-3 mb-5 modul-card">
+
+        <!-- <div class="rounded-3 py-3 mb-5 modul-card">
             <div class="modul-card-1">
                 <div class="d-flex px-4">
                     <div class="col-4 d-flex">
-                        <div class="rounded-circle" style="background-image: url('/img/static/iconMateri/codeigniter.png');" id="mask"></div>
-                        <div class="align-self-center mx-auto fs-4 fw-bold">Code Igniter 4</div>
+                        <div class="rounded-circle" style="background-image: url('/img/static/htmlcss.png');" id="mask"></div>
+                        <div class="align-self-center mx-auto fs-4 fw-bold">Judul Bab</div>
                     </div>
                     <div class="col-8 d-flex justify-content-end align-items-center">
                         <a href="/ci4"><button id="btn-to-modul">Full Bab</button></a>
@@ -55,22 +55,22 @@
             <div>
                 <div class="row">
                     <div class="col-8 px-5 pt-4">
-                        Pelajari cara menggunakan Kerangka Kerja PHP MVC Paling Populer dan buat aplikasi terbaik, mudah, aman, dan cepat.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, sed placeat! Corporis cum molestias officiis, neque.
                     </div>
                     <div class="col-4 px-4 pt-4 mx-auto d-flex flex-column align-items-end justify-content-center">
-                        <div>Rp.50.000</div>
-                        <div>2 BAB</div>
+                        <div>NUM BAB</div>
                     </div>
                 </div>
             </div>
         </div>
 
+
         <div class="rounded-3 py-3 mb-5 modul-card">
             <div class="modul-card-1">
                 <div class="d-flex px-4">
                     <div class="col-4 d-flex">
-                        <div class="rounded-circle" style="background-image: url('/img/static/iconMateri/codeigniter.png');" id="mask"></div>
-                        <div class="align-self-center mx-auto fs-4 fw-bold">Code Igniter 4</div>
+                        <div class="rounded-circle" style="background-image: url('/img/static/htmlcss.png');" id="mask"></div>
+                        <div class="align-self-center mx-auto fs-4 fw-bold">Judul Bab</div>
                     </div>
                     <div class="col-8 d-flex justify-content-end align-items-center">
                         <a href="/ci4"><button id="btn-to-modul">Full Bab</button></a>
@@ -81,19 +81,20 @@
             <div>
                 <div class="row">
                     <div class="col-8 px-5 pt-4">
-                        Pelajari cara menggunakan Kerangka Kerja PHP MVC Paling Populer dan buat aplikasi terbaik, mudah, aman, dan cepat.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, sed placeat! Corporis cum molestias officiis, neque.
                     </div>
                     <div class="col-4 px-4 pt-4 mx-auto d-flex flex-column align-items-end justify-content-center">
-                        <div>Rp.50.000</div>
-                        <div>2 BAB</div>
+                        <div>NUM BAB</div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
 
     </div>
+
+</div>
 </div>
 
 
