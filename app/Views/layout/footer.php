@@ -8,18 +8,18 @@
             <img src="\img\static\footer\image 4.png" alt="">
         </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <div class="row d-flex py-3">
-                <div class="col-3 ">
+                <div class="col col-3-lg col-3-xl">
                     <img class="" src="\img\static\logodots.png" width="200px" height="80px" alt="">
-                    <div class="container">
+                    <ul>
                         <div>Kontak Kami</div>
                         <div>+6285-7919-24555</div>
                         <div>official@dotsnusa.com</div>
-                    </div>
+                    </ul>
                 </div>
 
-                <div class="col-2">
+                <div class="col-2 d-none d-md-block d-lg-block d-xl-block">
                     <div class="fw-bold">Company</div>
                     <ul class="fw-light p-0 m-0" style="list-style-type: none;">
                         <li>Tentang Kami</li>
@@ -30,7 +30,7 @@
                     </ul>
                 </div>
 
-                <div class="col-6">
+                <div class="col-6 d-none d-md-block d-lg-block d-xl-block">
                     <div class="fw-bold">Quick Links</div>
                     <ul class="fw-light p-0 m-0" style="list-style-type: none;">
                         <li>FAQS</li>

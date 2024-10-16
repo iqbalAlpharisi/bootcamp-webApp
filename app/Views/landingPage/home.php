@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col text-center">
             <h3 class="fs-2 fw-bold">Karier Anda Dalam <span id="highlightText">Pemrograman Web</span> <br>Dimulai di sini</h3>
-            <h3 class="fs-5 fw-lighter mt-4 w-50 text-center mx-auto">Di sini, kami menawarkan program pelatihan intensif yang
+            <h3 class="fs-5 fw-lighter mt-4 w-50 text-center mx-auto d-none d-lg-block">Di sini, kami menawarkan program pelatihan intensif yang
                 dirancang khusus untuk membantu Anda menguasai keterampilan pengembangan web terkini,
                 mulai dari dasar hingga tingkat lanjut. </h3>
             <a class="text-reset" href="/login">
@@ -22,25 +22,31 @@
     <div class="row">
         <div class="col text-center">
             <h2 class="fw-bold">Pengenalan Bootcamp</h2>
-            <p class="mt-3">Ini adalah situs web yang kami harapkan saat kami belajar sendiri.<br> Kami menjelajahi internet untuk mencari sumber daya terbaik guna melengkapi pembelajaran Anda<br> dan menyajikannya dalam urutan yang logis.</p>
+            <p class="mt-3 d-none d-lg-block">Ini adalah situs web yang kami harapkan saat kami belajar sendiri.<br> Kami menjelajahi internet untuk mencari sumber daya terbaik guna melengkapi pembelajaran Anda<br> dan menyajikannya dalam urutan yang logis.</p>
         </div>
     </div>
 
     <div class="row text-center mt-5 d-flex w-50 mx-auto justify-content-evenly">
-        <div class="col-4">
+        <div class="col col-lg-4 col-xl-4">
             <img class="illus mx-auto d-block m-3" src="\img\static\book-closed-svgrepo-com.svg" alt="">
-            <span class="fw-bold fs-5">Pengenalan</span><br>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            <div class="fw-bold fs-5">Pengenalan</div>
+            <div class="d-none d-lg-block">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam suscipit amet delectus.
+            </div>
         </div>
-        <div class="col-4">
+        <div class="col col-lg-4 col-xl-4">
             <img class="illus mx-auto d-block m-3" src="\img\static\laptop-portable-svgrepo-com.svg" alt="">
-            <span class="fw-bold fs-5">Rancang</span><br>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa rem aperiam assumenda exercitationem aliquid eveniet.
+            <div class="fw-bold fs-5">Rancang</div>
+            <div class="d-none d-lg-block">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam suscipit amet delectus.
+            </div>
         </div>
-        <div class="col-4">
+        <div class="col col-lg-4 col-xl-4">
             <img class="illus mx-auto d-block m-3" src="\img\static\business-electricity-connect-energy-commerce-svgrepo-com.svg" alt="">
-            <span class="fw-bold fs-5">Publikasi</span><br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam suscipit amet delectus.
+            <div class="fw-bold fs-5">Publikasi</div>
+            <div class="d-none d-lg-block">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam suscipit amet delectus.
+            </div>
         </div>
     </div>
 

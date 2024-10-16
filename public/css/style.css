@@ -29,15 +29,15 @@ a {
 
 }
 .btn1{
-    padding-inline: 2em;
-    padding-block: 0.5em;
+    padding-inline: 50px;
+    padding-block: 10px;
     border-style: solid;
     border-radius: 5px;
     border-width: 1px;
     border-color: rgb(33, 198, 159);
     background-color: transparent;
     color: rgb(33, 198, 159);
-    margin-block: 1em;
+    margin-block: 20px;
     transition-duration: 0.3s;
 }
 .btn1:hover{
