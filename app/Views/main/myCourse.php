@@ -6,28 +6,31 @@
         <!-- Sidebar -->
         <div class="col-2 position-sticky top-0 sidebar">
             <div class="container p-2 fs-5 d-flex flex-column sidemenu">
-                <div class="container py-2 my-2">
+                <div class="container py-2 my-2 mx-auto">
                     <a href="/myCourse" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-house ps-3"></i>
-                        <span>Home</span></a>
+                        <i class="bi bi-house ms-3"></i>
+                        <span class="d-none d-md-block d-lg-inline">Home</span>
+                    </a>
                 </div>
                 <div class="container py-2 my-2">
                     <a href="/all-modul" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-mortarboard ps-3"></i>
-                        <span>Modul</span></a>
+                        <i class="bi bi-mortarboard ms-3"></i>
+                        <span class="d-none d-md-block d-lg-inline">Modul</span>
+                    </a>
                 </div>
 
                 <div class="container py-2 my-2">
                     <a href="/setting" class="d-flex align-items-center text-decoration-none">
-                        <i class="bi bi-gear ps-3"></i>
-                        <span>Setting</span></a>
+                        <i class="bi bi-gear ms-3 "></i>
+                        <span class="d-none d-md-block d-lg-inline">Setting</span>
+                    </a>
                 </div>
 
                 <div class="flex-grow-1"></div>
                 <div class="container py-2 my-2 mt-auto">
                     <a href="/logout" class="d-flex align-items-center text-decoration-none">
                         <i class="bi bi-box-arrow-right ps-3"></i>
-                        <span>Log Out</span>
+                        <span class="d-none d-md-inline d-lg-inline">Log Out</span>
                     </a>
                 </div>
             </div>
